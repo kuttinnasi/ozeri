@@ -118,17 +118,18 @@ include 'config.php';
         .accordion-header {
             background: #1a4b7e;
             color: #fff;
-            padding: 14px 20px;
+            padding: 3px 13px;
             cursor: pointer;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-weight: 600;
-            font-size: 1.15rem;
+            /* font-weight: 600; */
+            font-size: 1rem;
             transition: background 0.3s;
             font-family: 'Oswald', sans-serif;
             letter-spacing: 0.5px;
         }
+
         .accordion-header:hover {
             background: #153856;
         }
@@ -214,7 +215,7 @@ include 'config.php';
             <div class="">
                 <h1 class="blog-title">Memories & Testimonies</h1>
                 <p><strong><a href="share-your-memories-or-healing-testimonies-of-fr-rookey.php" style="color: inherit; text-decoration: none;">Click Here to Share Your Memories or Healing Testimonies of Fr. Rookey</a></strong></p>
-                <p><a href="testimonies.php" style="color: #000; font-weight: bold; text-decoration: none;">Personal Testimonies submitted to this website</a></p>
+                <p><a href="testimonials.php" style="color: #000; font-weight: bold; text-decoration: none;">Personal Testimonies submitted to this website</a></p>
 
                 <p><a href="https://www.facebook.com/rookeysaint" target="_blank" style="color: #1a4b7e; font-weight: bold; text-decoration: underline; ">Fr. Peter M. Rookey O.S.M. Guest Book on Chicago Sun-Times</a></p>
                 <p style="margin-top: -12px;">Fr. Peter Rookey Sainthood Promotion Page on Facebook: <a href="https://www.facebook.com/rookeysaint/" target="_blank"  style="color: #1a4b7e; font-weight: bold; text-decoration: underline;">https://www.facebook.com/rookeysaint</a></p>
@@ -225,18 +226,18 @@ include 'config.php';
             <div class="testimonies-container">
                 <!-- Sidebar -->
                 <aside class="testimonies-sidebar">
-                    <button class="tab-btn active" onclick="showCategory('reconciliation')">Reconciliation</button>
-                    <button class="tab-btn" onclick="showCategory('miracle-prayer')">Miracle Prayer</button>
-                    <button class="tab-btn" onclick="showCategory('fertility')">Fertility</button>
-                    <button class="tab-btn" onclick="showCategory('tumors-cancer')">Tumors and Cancer</button>
-                    <button class="tab-btn" onclick="showCategory('mystery-magic')">Mystery or Magic</button>
-                    <button class="tab-btn" onclick="showCategory('physical-healing')">Physical Healing</button>
-                    <button class="tab-btn" onclick="showCategory('exorcism-1')">Exorcism 1 & 2</button>
-                    <button class="tab-btn" onclick="showCategory('young-people')">Young People</button>
-                    <button class="tab-btn" onclick="showCategory('signs-of-hope')">Signs of Hope</button>
-                    <button class="tab-btn" onclick="showCategory('closer-to-god')">Closer to God</button>
-                    <button class="tab-btn" onclick="showCategory('visions')">Visions</button>
-                    <button class="tab-btn" onclick="showCategory('inner-healing')">Inner Healing</button>
+                    <button class="tab-btn active" data-category="reconciliation" onclick="showCategory('reconciliation')">Reconciliation</button>
+                    <button class="tab-btn" data-category="miracle-prayer" onclick="showCategory('miracle-prayer')">Miracle Prayer</button>
+                    <button class="tab-btn" data-category="fertility" onclick="showCategory('fertility')">Fertility</button>
+                    <button class="tab-btn" data-category="tumors-cancer" onclick="showCategory('tumors-cancer')">Tumors and Cancer</button>
+                    <button class="tab-btn" data-category="mystery-magic" onclick="showCategory('mystery-magic')">Mystery or Magic</button>
+                    <button class="tab-btn" data-category="physical-healing" onclick="showCategory('physical-healing')">Physical Healing</button>
+                    <button class="tab-btn" data-category="exorcism-1" onclick="showCategory('exorcism-1')">Exorcism 1 & 2</button>
+                    <button class="tab-btn" data-category="young-people" onclick="showCategory('young-people')">Young People</button>
+                    <button class="tab-btn" data-category="signs-of-hope" onclick="showCategory('signs-of-hope')">Signs of Hope</button>
+                    <button class="tab-btn" data-category="closer-to-god" onclick="showCategory('closer-to-god')">Closer to God</button>
+                    <button class="tab-btn" data-category="visions" onclick="showCategory('visions')">Visions</button>
+                    <button class="tab-btn" data-category="inner-healing" onclick="showCategory('inner-healing')">Inner Healing</button>
                 </aside>
 
                 <!-- Content Area -->
@@ -572,7 +573,8 @@ include 'config.php';
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
+                    </div>
                     <!-- Fertility -->
                     <div id="fertility" class="tab-pane">
                         <div class="accordion-list">
@@ -1183,7 +1185,7 @@ include 'config.php';
                         </div>
                     </div>
 
-            <div id="mystery-magic" class="tab-pane">
+                    <div id="mystery-magic" class="tab-pane">
                         <div class="accordion-list">
                             <div class="accordion-item">
                                 <div class="accordion-header">AN AMERICAN PRIEST <span class="icon"><i class="fa fa-plus"></i></span></div>
@@ -1341,8 +1343,8 @@ include 'config.php';
                                     </div>
                                 </div>
                             </div>
-                </div>
-            </div>
+                        </div>
+                    </div>
                     <div id="physical-healing" class="tab-pane">
                         <div class="accordion-list">
                             <div class="accordion-item">
@@ -1557,6 +1559,7 @@ include 'config.php';
                                         <p>IRELAND</p>
                                     </div>
                                 </div>
+                            </div>
                             <div class="accordion-item">
                                 <div class="accordion-header">SURPASSED ALL UNDERSTANDING <span class="icon"><i class="fa fa-plus"></i></span></div>
                                 <div class="accordion-body">
@@ -1614,7 +1617,6 @@ include 'config.php';
                                         <p>Several years ago you were here, and my husband prayed that I would be healed from a slight heart ailment. I was blessed by you and rested in the Spirit. My husband was blessed by you and he prayed for my healing. I felt a sharp pain in my chest. It wasn’t’ until later that my husband told me he prayed for me.</p>
 
                                         <p>Since then, I have not had any of the pain or symptoms of my heart problem. Thank you for all the beautiful healings that the Holy Spirit does through you.</p>
-
                                         <p>TEXAS</p>
                                     </div>
                                 </div>
@@ -3592,38 +3594,163 @@ include 'config.php';
                                     <div class="story-content">
                                         <p>Dear Fr. Rookey,</p>
 
-                                        It was such a blessing for me to attend a Healing Mass you conducted last December in Ohio. I had the privilege of meeting you afterward. You blessed a small wooden cross my con had made for me. I thanked you—and I went home.
+                                        <p>It was such a blessing for me to attend a Healing Mass you conducted last December in Ohio. I had the privilege of meeting you afterward. You blessed a small wooden cross my con had made for me. I thanked you—and I went home.</p>
 
-                                        It wasn’t until about ten days later that I realized I had been healed! You see, Father—for about four years I had been dependent on antidepressants for “clinical depression.” I was so stressed because of the happenings in my life that by 1985 I got so physically ill, I though I would die! Sometimes I wished I would have.
+                                        <p>It wasn’t until about ten days later that I realized I had been healed! You see, Father—for about four years I had been dependent on antidepressants for “clinical depression.” I was so stressed because of the happenings in my life that by 1985 I got so physically ill, I though I would die! Sometimes I wished I would have.</p>
 
-                                        I was on such a “high” after your Healing Mass—that it wasn’t until about en days later that I realized I hadn’t taken even one of my pills.
+                                        <p>I was on such a “high” after your Healing Mass—that it wasn’t until about en days later that I realized I hadn’t taken even one of my pills.</p>
 
-                                        Praise the Lord! I have been healed, Fr. Rookey. I have not taken my medication since.
+                                        <p>Praise the Lord! I have been healed, Fr. Rookey. I have not taken my medication since.</p>
 
-                                        Through you— God has freed me! He has given me back my life! Thank you, Father! I will never forget you! I’ll pray for you always! And I hope one day, we’ll meet again! God bless you,
+                                        <p>Through you— God has freed me! He has given me back my life! Thank you, Father! I will never forget you! I’ll pray for you always! And I hope one day, we’ll meet again! God bless you,</p>
 
-                                    OHIO</p>
+                                    <p>OHIO</p>
                                     </div>
                                 </div>
                             </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">LOVE, GRACE AND JOY <span class="icon"><i class="fa fa-plus"></i></span></div>
+                                <div class="accordion-body">
+                                    <div class="story-content">
+                                        <p>Dear Fr. Rookey,</p>
 
+                                        <p>What Divine love, grace and joy to have had you talk and heal people at the Friends House. S0 many healed, including myself: inner healing of peace. But most of all—it was the Divine Love and compassion from your heart as you spoke to all. “As God is Love” and it poured from you to all. God keep you.</p>
 
+                                    <p>ENGLAND</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">ATTITUDE GREATLY IMPROVED <span class="icon"><i class="fa fa-plus"></i></span></div>
+                                <div class="accordion-body">
+                                    <div class="story-content">
+                                        <p>Dear Fr. Rookey,</p>
 
+                                        <p>Members of my family and I were privileged to attend your beautiful Healing Mass last summer.</p>
 
+                                        <p>Prior to your visit my brother had endured several major surgeries, hospitalizations, etc. It seemed this resulted in his having a pessimistic attitude.</p>
+
+                                        <p>It was very evident that after your special blessing my brother’s attitude had greatly improved and he felt he may be healed.</p>
+
+                                    <p>I give you credit for the healing of my legs—and helping my diabetes. You to me are like Him. Love you always. Thank you for your blessings.</p>
+
+                                    <p>WISCONSIN</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">PRAYER CHANGES PEOPLE <span class="icon"><i class="fa fa-plus"></i></span></div>
+                                <div class="accordion-body">
+                                    <div class="story-content">
+                                        <p>Dear Fr. Rookey,</p>
+
+                                        <p>Through the grace of God I managed to bring my mother along to the Healing Service.</p>
+
+                                        <p>I know you meet a great number of people, but do you remember praying over a girl that day? She was on the floor for some time. You sprinkled her with holy water and she screamed.</p>
+
+                                        <p>Fr. Peter, that was me.</p>
+
+                                        <p>I could hear you saying,” Does anybody know her name?” I knew that you did not know who I was. I could not bring myself to remind you because there were so many people around us, and they seemed to need you more than I did. I was talking to my sister about the tremendous healing I had received and she even said herself that in the last two years since the tremendous healing in Medjugorje, I had changed beyond recognition. I praise God for it. Since my mother came back from that Mass and Healing Service, she too has changed.</p>
+
+                                        <p>As I’ve tried to explain to my mother on many occasions, my faith must be a challenge to me; it must be reaching out to others and growing in maturity, spiritually.</p>
+
+                                        <p>Our Blessed Lady has surprised me and blest me for more than I deserve.</p>
+
+                                        <p>I thank you for allowing yourself to be the vessel from which the waters of life flow. I will hold you especially before our Blessed Lady that the power of the Most High will come upon you and continue to anoint you.</p>
+
+                                    <p>ENGLAND</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">EMOTIONAL HEALING <span class="icon"><i class="fa fa-plus"></i></span></div>
+                                <div class="accordion-body">
+                                    <div class="story-content">
+                                        <p>Dear Fr. Rookey,</p>
+
+                                        <p>When you visited our Church in 1991, I asked you for a healing for a friend. She had been suffering from cancer and had been severely depressed over the past year. At the time of the service, she was hospitalized. They had drained her lungs repeatedly. Through 1990 they found suspicious cells in the fluid.</p>
+
+                                        <p>All last year whenever I talked to her, she cried. She cried at work and she told me many times that she went home every night and cried.</p>
+
+                                        <p>Since January 1991 she has seemed to be a changed person. Whenever I talk with her, she is in good spirits. She hasn’t cried and even jokes and laughs. She is fighting to get better and is happily looking forward to getting the chemotherapy and going back to work. Whether God will cure her disease remains to be seen, but He has certainly healed the spirits of this woman. I have not approached her about this, but believe me, God did an emotional healing because she is like her old self, joking and laughing.</p>
+
+                                    <p>NEW YORK</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">GIFT OF COURAGE <span class="icon"><i class="fa fa-plus"></i></span></div>
+                                <div class="accordion-body">
+                                    <div class="story-content">
+                                        <p>Dear Fr. Rookey,</p>
+
+                                        <p>I am writing to ask you to do a few prayers for my family and myself. I am twenty-four years old and seven years ago I was diagnosed as having a disease similar to MS.</p>
+
+                                    <p>I went to see you in June and you gave me great faith. Although I was not healed physically, I got an inner healing and I found courage and strength to help myself. I found myself thanking and praising God for what I’ve got. You see, I have a wonderful husband, a two year old daughter and another baby is due in December. My mother is also very good and helpful with everything.</p>
+
+                                    <p>I know that there are millions of people worse off than me but I know if I keep praying and keep my faith, I will get physical healing.</p>
+
+                                    <p>IRELAND</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">GENTLE CLASP <span class="icon"><i class="fa fa-plus"></i></span></div>
+                                <div class="accordion-body">
+                                    <div class="story-content">
+                                        <p>Dear Fr. Rookey,</p>
+
+                                        <p>I was at your Healing Mass on September 29th and something happened that was important to me as the answer to a prayer and I thought you might be interested in it also.</p>
+
+                                        <p>I have been praying the enclosed prayer, “not finding a warm hand to hold . . . Take my hand with a strong and gentle clasp.” It is from a Daily Catholic Devotions called “Living Faith.”</p>
+
+                                        <p>While trying to get close enough to shake your hand after the Mass and anointing, others kept getting between us. But suddenly you reached around the back of the one in front of me and gave me a warm hand clasp. I felt my prayer had been answered, ‘take my hand with a strong and gentle clasp.”</p>
+
+                                        <p>At the anointing, too, I experienced the resting in the Spirit. I felt like I could lie there all night but struggled up to make room for others. I felt weak even after I got home and just rested in the Spirit for an hour or so. I didn’t want to read or write or watch TV early and I had this restful time with the Spirit all to myself.</p>
+
+                                    <p>The Rosary of Our Lady of Sorrows, too, brought to mind my son who was killed in an automobile accident twelve years ago. At that time I felt him saying over and over, “I love you, Mom.” For the first time since his death I though to day “I love you,” and felt it. Maybe he’s been waiting for that. He had a tragic life—studied to be a priest and as rejected—then married twice and both wives left him.</p>
+                                        <p>I am enclosing an offering and would be most grateful if you would send me the Rosary of Our Lady of Sorrows. With gratitude to God and you.</p>
+
+                                    <p>CALIFORNIA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">A PEACEFUL FEELING <span class="icon"><i class="fa fa-plus"></i></span></div>
+                                <div class="accordion-body">
+                                    <div class="story-content">
+                                        <p>Dear Fr. Rookey,</p>
+
+                                        <p>I attended your Healing Mass on July 15 in Our Lady Queen of Peace Church. During Mass, when standing, I had a warm feeling through my body and a trembling feeling in my legs. I had the same experience while waiting for you to pray over me. I did go down in the Spirit.</p>
+
+                                        <p>When driving home with my two sisters, I had detected the smell of roses. The scent was very strong. I asked my sisters whether they had put perfume on and both said, “no.” Neither one of them detected the aroma. I did come home with a peaceful feeling.</p>
+
+                                        <p>May God bless you with good health, watch over you and give you strength to continue your good works. I have you in my prayers.</p>
+
+                                    <p>NEW JERSEY</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">NEW EVALUATION <span class="icon"><i class="fa fa-plus"></i></span></div>
+                                <div class="accordion-body">
+                                    <div class="story-content">
+                                        <p>Dear Fr. Rookey,</p>
+
+                                        <p>On December 1, attended a Healing Mass at our parish in Chicago.</p>
+
+                                        <p>My children had been placed in a foster home in January. This past week I wanted to end my life. The stress was far greater than I was capable of handling. I was even considering being admitted into a hospital. I was feeling very hopeless.</p>
+
+                                        <p>When I saw my Doctor that day, she wanted to increase my anti-depressant. I said, “No,” knowing I would be attending Mass with you in the evening.</p>
+
+                                        <p>I received the gift of tears. Praise the Lord! Today I feel I once again can conquer anything with the Lord at my side, I value my life abundantly. Thank you for being an open vessel of our Heavenly Father.</p>
+
+                                    <p>ILLINOIS</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-
-                    
-
-
-
-
-
-
-
-
-
                 </div>
             </div>
         </div>
@@ -3635,13 +3762,19 @@ include 'config.php';
     <script>
         function showCategory(categoryId) {
             // Update Tab Buttons
-            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-            const activeBtn = Array.from(document.querySelectorAll('.tab-btn')).find(btn => btn.onclick.toString().includes(categoryId));
-            if(activeBtn) activeBtn.classList.add('active');
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if(btn.getAttribute('data-category') === categoryId) {
+                    btn.classList.add('active');
+                }
+            });
 
             // Update Content Panes
             document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
-            document.getElementById(categoryId).classList.add('active');
+            const targetPane = document.getElementById(categoryId);
+            if(targetPane) {
+                targetPane.classList.add('active');
+            }
 
             // Scroll to top of content on mobile
             if (window.innerWidth < 992) {
@@ -3653,13 +3786,17 @@ include 'config.php';
         document.querySelectorAll('.accordion-header').forEach(header => {
             header.addEventListener('click', () => {
                 const item = header.parentElement;
-                const isOpen = item.classList.contains('open');
                 
-                if (!isOpen) {
-                    item.classList.add('open');
-                } else {
-                    item.classList.remove('open');
-                }
+                // Toggle current item
+                item.classList.toggle('open');
+                
+                // Optional: Close other items in the same list
+                /*
+                const siblings = item.parentElement.querySelectorAll('.accordion-item');
+                siblings.forEach(sibling => {
+                    if (sibling !== item) sibling.classList.remove('open');
+                });
+                */
             });
         });
     </script>
