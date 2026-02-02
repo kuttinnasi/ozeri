@@ -58,7 +58,7 @@
                     
                     <!-- YouTube Video Embed -->
                     <div class="video-wrapper">
-                        <div class="video-container">
+                        <div class="video-container" style="max-width: 800px; margin: 0 auto 30px;">
                             <iframe width="100%" height="500" src="https://www.youtube.com/embed/eUlMfg0N3l0?si=5kNSdu3I1QiTypx8" title="Fr. Peter Rookey Sings the Stabat Mater" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>

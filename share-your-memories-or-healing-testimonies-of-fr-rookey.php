@@ -153,6 +153,12 @@ if(isset($_POST['submit_testimony'])){
             font-weight: 700;
             color: #333;
         }
+        .instruction-text h3 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
         .form-label span {
             color: red;
         }
@@ -270,6 +276,19 @@ if(isset($_POST['submit_testimony'])){
                         <a href="testimonials.php" style="color: #1a4b7e; font-weight: bold; text-decoration: underline;">View All Testimonials</a>
                     </div>
                 </form>                
+            </div>
+        <div class="instruction-text">
+                <h3>Please share your wonderful memories of Fr. Rookey or testimonies of healings for public display. Or, send them in writing, including your hand-written signature to:</h3>
+                
+                <div class="address-box">
+                    Timothy Rookey<br>
+                    2040 Allen Blvd #6<br>
+                    Middleton, WI 53562
+                </div>
+
+                <p style="margin-bottom: 15px; margin-top: 15px">Please tell us of your experiences with Fr. Rookey, your friendship with him, what makes you think he should be proclaimed a saint by the Catholic Church, what healings, miracles, or mystical phenomena you yourself or someone you knew experienced, or what virtues you saw displayed by Fr. Rookey.</p>
+                
+                <p>This will greatly help to advance Father's cause for canonization. Thanks very much for your cooperation in this effort!</p>
             </div>
         </div>
     </main>

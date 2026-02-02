@@ -45,7 +45,7 @@
                     <h3 style="text-align: center; font-size: 1.5rem; margin-bottom: 25px; color: #333;">Fr. Rookey Hears Confessions-Madonna of Medjugorje Film 1986</h3>
                     
                     <div class="video-container" style="max-width: 800px; margin: 0 auto 30px;">
-                        <iframe width="100%" height="450" src="https://www.youtube.com/embed/VIDEO_ID_HERE" title="Fr. Rookey Hears Confessions-Madonna of Medjugorje Film 1986" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe src="https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2Frookeysaint%2Fvideos%2F2749471255180335%2F&show_text=false&width=560&t=0" width="560" height="420" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                     </div>
                     
                     <p>Fr. Peter Rookey appears briefly in the BBC documentary from 1986 called The Madonna of Medjugorje. He was among a number of priests hearing confessions one day at the shrine church.</p>
