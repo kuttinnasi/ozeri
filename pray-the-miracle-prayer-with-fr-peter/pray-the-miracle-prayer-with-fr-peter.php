@@ -77,7 +77,7 @@
                     </div>
 
                     <div class="video-wrapper">
-                        <div class="video-container">
+                        <div class="video-container" style="max-width: 800px; margin: 0 auto 30px;">
                             <iframe width="100%" height="500" src="https://www.youtube.com/embed/zsfwU6mHP0c?si=Qcx0nYYzHE0uxl0F" title="Miracle Prayer – A Testimony of Faith | Fr. Rokey LIVE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>

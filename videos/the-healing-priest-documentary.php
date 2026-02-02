@@ -33,8 +33,8 @@
                     <h3 style="text-align: center; font-size: 1.5rem; margin-bottom: 25px; color: #333;">Fr. Peter Rookey-The Healing Priest</h3>
                     
                     <!-- YouTube Video Embed -->
-                    <div class="video-container" style="max-width: 800px; margin: 0 auto 30px;">
-                        <iframe width="100%" height="450" src="https://www.youtube.com/embed/vAU-Kyd9iTs?si=V0BdEMlvIHAP63rO" title="Fr. Peter Rookey-The Healing Priest" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="video-container" style="max-width: 800px;">
+                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/vAU-Kyd9iTs?si=V0BdEMlvIHAP63rO" title="Fr. Peter Rookey-The Healing Priest" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     
                     <!-- Description -->

@@ -34,7 +34,7 @@
                     
                     <!-- YouTube Video Embed -->
                     <div class="video-container" style="max-width: 800px; margin: 0 auto 30px;">
-                        <iframe width="100%" height="450" src="https://www.youtube.com/embed/VIDEO_ID_HERE" title="Fr. Rookey on TV Show Arthur C. Clarke's Mysterious Universe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe src="https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2Frookeysaint%2Fvideos%2F653009128884929%2F&show_text=false&width=560&t=0" width="560" height="420" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                     </div>
                     
                     <!-- Description -->

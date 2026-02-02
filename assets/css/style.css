@@ -598,7 +598,7 @@ h3 {
     color: white;
     text-decoration: none;
     font-size: 19px;
-    padding: 3px 3px !important;
+    padding: 7px 3px !important;
     border-radius: 3px;
     transition: background 0.2s;
     font-weight: 400;
@@ -1233,14 +1233,11 @@ textarea.form-control {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 aspect ratio */
+    padding-bottom: 35%;
+    /* 4:3 aspect ratio */
     height: 0;
     overflow: hidden;
-    max-width: 800px;
-    margin: 0 auto -181px auto;
-    /* background: #000000ff;
-            border: 1px solid #ddd; */
+    margin: 0 auto 30px;
 }
 
 .video-container iframe {
@@ -1248,7 +1245,7 @@ textarea.form-control {
     top: 0;
     left: 0;
     width: 100%;
-    height: 65%;
+    height: 100%;
 }
 
 .broadcast-desc {
@@ -1265,7 +1262,7 @@ textarea.form-control {
 }
 
 .video-page-content {
-    max-width: 900px;
+    /* max-width: 900px; */
     margin: 0 auto;
 }
 
