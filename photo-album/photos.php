@@ -43,33 +43,33 @@
 
                     <!-- Item 2 -->
                     <div class="album-item">
-                        <a href="#">
+                        <a href="fr-rookey-priesthood-1941-1995.php">
                             <img src="../assets/img/Fr.Rookey-Priesthood-1941-1995-cover.jpg" alt="Fr. Rookey Priesthood">
                         </a>
                         <div class="cover-photo-text">
-                            <h5>Fr. Rookey Priesthood<br>
-                            (1941-1995)</h5>
+                            <h5><a href="fr-rookey-priesthood-1941-1995.php" style="color: inherit; text-decoration: none;">Fr. Rookey Priesthood<br>
+                                (1941-1995)</a></h5>
                         </div>
                     </div>
 
                     <!-- Item 3 -->
                     <div class="album-item">
-                        <a href="#">
+                        <a href="fr-rookey-priesthood-1995-2014.php">
                             <img src="../assets/img/Fr.Rookey-Priesthood-1995-2014-cover.jpg" alt="Fr. Rookey Priesthood">
                         </a>
                         <div class="cover-photo-text">
-                            <h5>Fr. Rookey Priesthood<br>
-                            (1995-2014)</h5>
+                            <h5><a href="fr-rookey-priesthood-1995-2014.php" style="color: inherit; text-decoration: none;">Fr. Rookey Priesthood<br>
+                            (1995-2014)</a></h5>
                         </div>
                     </div>
 
                     <!-- Item 4 -->
                     <div class="album-item">
-                        <a href="#">
+                        <a href="fr-rookey-and-friends.php">
                             <img src="../assets/img/Fr.-Peter-Friends.jpg" alt="Fr. Rookey & Friends">
                         </a>
                         <div class="cover-photo-text">
-                            <h5>Fr. Rookey & Friends</h5>
+                            <h5><a href="fr-rookey-and-friends.php" style="color: inherit; text-decoration: none;">Fr. Rookey & Friends</a></h5>
                         </div>
                     </div>
 
