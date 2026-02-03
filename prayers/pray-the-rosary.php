@@ -33,7 +33,7 @@
         }
         .custom-player {
             /* background: #f8f9fa; */
-            border: 1px solid #ddd;
+            border: 1px solid #cccccc;
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 4px;
@@ -48,16 +48,16 @@
             font-size: 40px;
             color: #666;
         }
-        .player-text .album { font-weight: bold; font-size: 1.1rem; }
-        .player-text .artist { color: #666; font-size: 0.9rem; }
+        .player-text .album { font-weight: normal; font-size: 14px; font-weight: 400; }
+        .player-text .artist { color: #666; font-size: 12px; font-weight: 400; }
         
         .track-list {
             width: 100%;
             border-collapse: collapse;
             font-size: 0.95rem;
         }
-        .track-list tr { border-bottom: 1px solid #eee; }
-        .track-list td { padding: 8px 5px; color: #444; }
+        .track-list tr { border-bottom: 1px solid #cccccc; }
+        .track-list td { padding: 4px 5px; color: #000; font-size: 14px; font-weight: 600;}
         .track-list .duration { text-align: right; font-weight: bold; }
         .track-list tr:hover { background: #f9f9f9; }
 
@@ -67,7 +67,7 @@
             margin-top: 20px;
             font-size: 0.95rem;
             line-height: 1.6;
-            color: #666;
+            color: #000;
             /* font-style: italic; */
         }
     </style>
@@ -91,7 +91,7 @@
                         <div class="player-info">
                             <i class="fa-solid fa-music"></i>
                             <div class="player-text">
-                                <div class="album">"Seek Ye First" Canticle Of Love</div>
+                                <div class="album">"Seek Ye First"<br><em>Canticle Of Love</em></div>
                                 <div class="artist">DONALD AND CAROL WICHMAN</div>
                             </div>
                         </div>

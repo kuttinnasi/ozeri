@@ -13,7 +13,7 @@ include 'config.php';
             background: #fff;
         }
         .detail-title {
-            font-size: 2.2rem;
+            font-size: 1.9rem;
             color: #1a4b7e;
             font-weight: 700;
             margin-bottom: 30px;
@@ -39,7 +39,7 @@ include 'config.php';
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
         .detail-text {
-            font-size: 1.1rem;
+            font-size: 1rem;
             line-height: 1.5;
             color: #444;
             text-align: justify;
