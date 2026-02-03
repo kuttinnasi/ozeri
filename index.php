@@ -77,7 +77,7 @@
                         <p class="article-excerpt">
                             The purpose of this website is to promote the life and legacy of Servite Father Peter Mary Rookey and his cause for canonization as a saint of the Roman Catholic Church. He was often referred to as “The Man of Miracles” or “The Healing Priest”. I’m Timothy Peter Rookey, the nephew of Fr. Peter and[...]
                         </p>
-                        <a href="father-peter-mary-rookey.php" class="read-more-btn">Read More</a>
+                        <a href="about-us/father-peter-mary-rookey.php" class="read-more-btn">Read More</a>
                     </div>
                 </article>
 

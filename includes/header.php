@@ -9,13 +9,10 @@
 
         <!-- Logo + Petition -->
         <div class="header-logo-area">
-            
             <div class="logo-seal-group">
                 <div class="logo-text-group">
-                    <!-- <div class="servite-text">Servite Friar</div>
-                    <div class="friar-name">Fr.Peter Mary Rookey</div> -->
                 </div>
-                <img src="<?= BASE_URL ?>/assets/img/logo.png" class="seal-img" alt="OSM Seal">
+                <a href="<?= BASE_URL ?>/index.php"><img src="<?= BASE_URL ?>/assets/img/logo.png" class="seal-img" alt="OSM Seal"></a>
             </div>
 
             <div class="petition-group">
@@ -45,7 +42,7 @@
                     <a href="<?= BASE_URL ?>/biography/biography.php">Biography</a>
                     <a href="<?= BASE_URL ?>/photo-album/photos.php">Photo Album</a>
                     <div class="nav-dropdown">
-                        <a href="<?= BASE_URL ?>/media/videos.html" class="dropdown-toggle">Videos / Interviews <i class="fa-solid fa-caret-down"></i></a>
+                        <a href="#" class="dropdown-toggle">Videos / Interviews <i class="fa-solid fa-caret-down"></i></a>
                         <div class="dropdown-menu">
                             <a href="<?= BASE_URL ?>/videos/the-healing-priest-documentary.php">The Healing Priest Documentary</a>
                             <a href="<?= BASE_URL ?>/videos/pilgrimage-of-love-holyland-film.php">Pilgrimage Of Love Holyland Film</a>
@@ -85,3 +82,4 @@
             </div>
         </div>
     </nav>
+    
