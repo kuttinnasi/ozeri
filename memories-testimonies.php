@@ -10,7 +10,7 @@ include 'config.php';
     <?php include 'includes/head-links.php'; ?>
     <style>
         .testimonies-section {
-            padding: 60px 0;
+            /* padding: 60px 0; */
             background: #fdfdfd;
             min-height: 80vh;
         }
@@ -38,7 +38,7 @@ include 'config.php';
 
         .testimonies-container {
             display: flex;
-            gap: 30px;
+            gap: 10px;
             align-items: flex-start;
         }
 
@@ -58,12 +58,12 @@ include 'config.php';
             display: block;
             width: 100%;
             padding: 12px 15px;
-            text-align: left;
+            text-align: center;
             background: none;
             border: none;
             border-radius: 5px;
             font-size: 1rem;
-            color: #555;
+            color: #fff;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -71,10 +71,12 @@ include 'config.php';
             text-transform: uppercase;
             font-family: 'Oswald', sans-serif;
             letter-spacing: 0.5px;
+            background-color: #1a4b7e;
         }
         .tab-btn:hover {
             background: #fff;
             color: #1a4b7e;
+            border: solid 1px #1a4b7e;
         }
         .tab-btn.active {
             background: #1a4b7e;
@@ -116,6 +118,7 @@ include 'config.php';
             background: #fff;
         }
         .accordion-header {
+            font-family: "Open Sans", sans-serif;
             background: #1a4b7e;
             color: #fff;
             padding: 3px 13px;
@@ -123,15 +126,15 @@ include 'config.php';
             display: flex;
             justify-content: space-between;
             align-items: center;
-            /* font-weight: 600; */
-            font-size: 1rem;
+            font-weight: 600;
+            font-size: 14px;
             transition: background 0.3s;
-            font-family: 'Oswald', sans-serif;
-            letter-spacing: 0.5px;
+            /* letter-spacing: 0.5px; */
         }
 
         .accordion-header:hover {
-            background: #153856;
+            font-family: "Open Sans", sans-serif;
+            /* background: #153856; */
         }
         .accordion-header .icon {
             transition: transform 0.3s;
@@ -169,8 +172,10 @@ include 'config.php';
             text-transform: uppercase;
         }
         .testimonies-section p{
+            font-family: "Open Sans", sans-serif;
             margin-top: 10px;
             margin-bottom: 10px;
+            
         }
         /* .testimonies-section p:hover{
             color: #1a4b7e;
@@ -340,9 +345,9 @@ include 'config.php';
                                     <div class="story-content">
                                         <p>Dear Fr. Rookey,</p>
                                         <p>In September 1993 my husband and I went to a Healing Mass in Missouri, and I asked the Holy Spirit to enter my life and please rid me of the pain in my leg. I was anointed by you and smelled the roses and fell back and rested in the Holy Spirit.</p>
-                                        <p>When I arose, I stepped down with all my weight on my bad leg, the left one. As I went back to y pew, I stopped walking with crutches. After going a few feet, I was in the row where we sat and I knelt down. This hit me as “Wow, I’m kneeling and it doesn’t hurt.” By this time I started crying uncontrollable. My husband asked me if I was all right and I cried, “I have no pain in my leg.” He was moved to tears. He asked if I could walk, so I tried. Yes, I could walk without my crutches, and we walked up front to tell you the good news.</p>
-                                        <p>The second miracle came the next day at your Healing Mass. I call it a healing of memories. My husband and I called all our relatives and close friends to tell them of my healing. Fifty members of both extended families were there to hear my witness and ask the Holy Spirit for healing. On my husband’s side of the family there had been a rift between the sisters and brothers for many years. Everyone was there from his immediate family. There was much rejoicing and the family feels as one again. To see my husband and his brothers all hugging each other and their sisters was so uplifting, not only for him but our children and me, as well as the nieces and nephews.</p>
-                                        <p>It is truly wonderful how God works His miracles. There is one more item of Divine Providence that I want to relate to you. While in Georgia in August of 1993, I saw a copy of the Miracle Prayer in the apparition room. I read this prayer and was so excited. It said everything that I wanted to tell God but couldn’t put into words. I got a copy of it and began to say it every day that week. Well, I said it on the day of my healing. After the services, a couple who had told m about your Healing Mass, asked us if we had a copy of the Miracle Prayer. We said, “No” and were handed two prayer cards with this prayer. I said, “Oh, I’ve been reading this prayer all week.”</p>
+                                        <p>When I arose, I stepped down with all my weight on my bad leg, the left one. As I went back to y pew, I stopped walking with crutches. After going a few feet, I was in the row where we sat and I knelt down. This hit me as <u>“Wow, I’m kneeling and it doesn’t hurt.”</u> By this time I started crying uncontrollable. My husband asked me if I was all right and I cried, “I have no pain in my leg.” He was moved to tears. He asked if I could walk, so I tried. Yes, I could walk without my crutches, and we walked up front to tell you the good news.</p>
+                                        <p>The second miracle came the next day at your Healing Mass. I call it a healing of memories. My husband and I called all our relatives and close friends to tell them of my healing. Fifty members of both extended families were there to hear my witness and ask the Holy Spirit for healing. On my husband’s side of the family there had been a rift between the sisters and brothers for many years. Everyone was there from his immediate family. <u>There was much rejoicing and the family feels as one again.</u> To see my husband and his brothers all hugging each other and their sisters was so uplifting, not only for him but our children and me, as well as the nieces and nephews.</p>
+                                        <p><u>It is truly wonderful how God works His miracles.</u> There is one more item of Divine Providence that I want to relate to you. While in Georgia in August of 1993, I saw a copy of the Miracle Prayer in the apparition room. I read this prayer and was so excited. It said everything that I wanted to tell God but couldn’t put into words. I got a copy of it and began to say it every day that week. Well, I said it on the day of my healing. After the services, a couple who had told m about your Healing Mass, asked us if we had a copy of the Miracle Prayer. We said, “No” and were handed two prayer cards with this prayer. I said, “Oh, I’ve been reading this prayer all week.”</p>
                                         <p>Well, you can imagine my surprise!</p>
                                         <p>MISSOURI</p>
                                     </div>
@@ -353,8 +358,8 @@ include 'config.php';
                                 <div class="accordion-body">
                                     <div class="story-content">
                                         <p>Dear Fr. Rookey,</p>
-                                        <p>I want to thank you and the Blessed Mary and God for a glorious Christmas present. My sister and her husband have been reconciled since I last asked you to pray for them. Praise the Lord!!!</p>
-                                        <p>I also got engaged after Christmas. I’ve never imagined this feeling. It’s indescribable. I think that Mother Mary knows my joy. I’ve felt blessed before, but not quite like this. I ask that you pray for my fiancée and me for a joyful, peaceful and loving marriage. May it be long and full of faith. I ask for strength and courage and wisdom for this big undertaking. Thanks be to God for all the blessings.</p>
+                                        <p>I want to thank you and the Blessed Mary and God for a glorious Christmas present. <u>My sister and her husband have been reconciled</u> since I last asked you to pray for them. <u>Praise the Lord!!!</u></p>
+                                        <p>I also got engaged after Christmas. I’ve never imagined this feeling. It’s indescribable. I think that <u>Mother Mary knows my joy.</u> I’ve felt blessed before, but not quite like this. I ask that you pray for my fiancée and me for <u>a joyful, peaceful and loving marriage.</u> May it be long and full of faith. I ask for strength and courage and wisdom for this big undertaking. <u>Thanks be to God for all the blessings.</u></p>
                                         <p>ILLINOIS</p>
                                     </div>
                                 </div>
@@ -365,7 +370,7 @@ include 'config.php';
                                     <div class="story-content">
                                         <p>Dear Fr. Rookey,</p>
                                         <p>I attended your Healing Mass on November 6. I saw in you a beauty only matched by Nature itself.</p>
-                                        <p>I went in hopes of being healed, asking for time to be able to raise my daughter. My husband attended the service with me. I felt very loved by his attendance because he does not go to Church. When we approached the altar and you laid your hands on him, I saw his color drain and his knees buckle. At that moment I felt a twinge of jealousy and fear. Later I felt good—knowing he had been touched, because he needed the proof and love more than I. The miracle that happened was a new and loving marriage. I had prayed for this many times.</p>
+                                        <p>I went in hopes of being healed, asking for time to be able to raise my daughter. My husband attended the service with me. I felt very loved by his attendance because he does not go to Church. When we approached the altar and you laid your hands on him, I saw <u>his color drain and his knees buckle.</u> At that moment I felt a twinge of jealousy and fear. Later I felt good—knowing he had been touched, because <u>he needed the proof and love more than I. The miracle that happened was a new and loving marriage.</u> I had prayed for this many times.</p>
                                         <p>ILLINOIS</p>
                                     </div>
                                 </div>
@@ -375,9 +380,9 @@ include 'config.php';
                                 <div class="accordion-body">
                                     <div class="story-content">
                                         <p>Dear Fr. Rookey,</p>
-                                        <p>On October 3rd, while I was participating as a stand-in at your Healing Mass, unbeknownst to me, the healing I was praying for had begun! As a stand-in for my father, I asked the softening of his hardened heart, and his reconciliation with Our Lord and the Church My father, now 83 years old, had been denied absolution in confession over 50 years ago, and he quit going to Church except at Christmas. He became very bitter and ornery. The person he was the nastiest to was my mother, by verbal and emotional abuse (she’s a living saint in my book, for all she did for him and took from him.)</p>
-                                        <p>As his illness incapacitated him, he became more ornery, especially with her. Well, the night of the Healing Mass, he called mother into the bedroom, asked her to sit down beside him, and told her he was sorry for yelling at her and that she didn’t deserve it! The first apology from my father in 60 years of marriage—beginning the healing!</p>
-                                        <p>The following Saturday, October 8th, he told her that the two things he wanted were cremation and the Last Sacraments. To make an even longer short story ( he was very stubborn and bull-headed), the next day, Sunday noon, our parish priest came to the house, heard his confession, gave him Communion and anointed him!</p>
+                                        <p>On October 3rd, while I was participating as a stand-in at your Healing Mass, unbeknownst to me, <u>the healing I was praying for had begun!</u> As a stand-in for my father, I asked the softening of his hardened heart, and his <u>reconciliation with Our Lord and the Church</u> My father, now 83 years old, had been denied absolution in confession over 50 years ago, and he quit going to Church except at Christmas. He became very bitter and ornery. The person he was the nastiest to was my mother, by verbal and emotional abuse (she’s a living saint in my book, for all she did for him and took from him.)</p>
+                                        <p>As his illness incapacitated him, he became more ornery, especially with her. Well, the night of the Healing Mass, he called mother into the bedroom, asked her to sit down beside him, and told her he was sorry for yelling at her and that she didn’t deserve it! <u>The first apology from my father in 60 years of marriage—beginning the healing!</u></p>
+                                        <p>The following Saturday, October 8th, he told her that the two things he wanted were cremation and the Last Sacraments. To make an even longer short story ( he was very stubborn and bull-headed), the next day, Sunday noon, our parish priest came to the house, <u>heard his confession, gave him Communion and anointed him!</u></p>
                                         <p>After the anointing, Mother, Father and I laid hands on dad’s head and prayed to the Holy Spirit. I felt dad’s head quiver , and open then the look of total peace seemed to permeate him. My dad’s words were, “Father, I am so relieved.” Dad then proceeded to watch a winning Packer game and died in his chair a half hour later! Praise the Lord—my father had an all around winning day!</p>
                                         <p>WISCONSIN</p>
                                     </div>
@@ -388,10 +393,10 @@ include 'config.php';
                                 <div class="accordion-body">
                                     <div class="story-content">
                                         <p>Dear Fr. Rooky,</p>
-                                        <p>I attended all of your sessions when you came to Kenya last year and I must sway I was very blessed.</p>
+                                        <p>I attended all of your sessions when you came to Kenya last year and I must sway <u>I was very blessed.</u></p>
                                         <p>I must report that I have seen wonders. I had written about being thirty-four years old and wanting to get married. I have since that time met someone and we are now engaged. We are planning to get married in August.</p>
-                                        <p>My sister found a job an also one of my brothers. I am grateful to God because this boy had depression for three years, but is now recovered.</p>
-                                        <p>I also want to thank the Lord because one of my brothers and my sister have started going to Church. My friend also has started receiving Holy Communion and I am so overjoyed.</p>
+                                        <p>My sister found a job an also one of my brothers. I am grateful to God because this boy had <u>depression for three years</u>, but is now recovered.</p>
+                                        <p>I also want to thank the Lord because <u>one of my brothers and my sister have started going to Church. My friend also has started receiving Holy Communion and I am so overjoyed.</u></p>
                                         <p>KENYA</p>
                                     </div>
                                 </div>
@@ -891,17 +896,6 @@ include 'config.php';
                                         <p>I was present in the name of my daughter at your Healing Service on February 22. My daughter is 31 years old and was seriously ill with cancer. She is my only child.</p>
                                         <p>On February 23, she received a report of a normal CAT SCAN. We truly believe the healing hand of Christ granted us a miracle through your service. Praise and thanksgiving to Our Lord!</p>
                                         <p>FLORIDA</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <div class="accordion-header">LUNG CANCER DISAPPEARS <span class="icon"><i class="fa fa-plus"></i></span></div>
-                                <div class="accordion-body">
-                                    <div class="story-content">
-                                        <p>Dear Fr. Rookey,</p>
-                                        <p>Last week I called you to pray over my friend. The doctor told him he had cancer in his lungs. Later when I went by his house, it was the first time he was walking around. <strong>He felt your prayer had cured him.</strong> He was feeling great.</p>
-                                        <div class="story-location">FLORIDA</div>
                                     </div>
                                 </div>
                             </div>
@@ -2775,14 +2769,6 @@ include 'config.php';
                                         <p>My life was changed and I thank and praise God for His grace and mercy. I still have discomfort in my neck and back, but I’m not worried about it. I know the Lord God touched me in a very special way and healed me spiritually. I offered up my sufferings to the Almighty Father for giving His Son Jesus my Savior who suffered for me on the Cross. I now got o Mass every day and have been ushering every Sunday in our community Church. I am hungry for God and I want to be able to serve Him for the rest of my life.</p>
 
                                         <p>CALIFORNIA</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="accordion-header">SPECIAL BLESSING <span class="icon"><i class="fa fa-plus"></i></span></div>
-                                <div class="accordion-body">
-                                    <div class="story-content">
-                                        <p>Frankie came up to the altar again at St. Vincent Pallotti’s Church, surrounded by his entire family, and received the special blessing from Fr. Rookey, and again he “rested in the Spirit.” But this time he came out of it with no problem and no demos. He was cheered by the five hundred fifty participants when he got us to witness and tell his story of being “possessed” from the night before in Doylestown. Frankie had ”beat the evil” and apparently now had been healed. Evidently, the demon in question was sent back to receive a “warm reception.”</p>
                                     </div>
                                 </div>
                             </div>

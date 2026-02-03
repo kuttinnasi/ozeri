@@ -14,7 +14,7 @@ include 'config.php';
             /* text-align: center; */
         }
         .prayer-title {
-            font-size: 2.22rem;
+            font-size: 1.9rem;
             color: #1a4b7e;
             font-weight: 700;
             margin-bottom: 20px;
@@ -40,7 +40,7 @@ include 'config.php';
             text-align: left;
         }
         .prayer-text-content {
-            font-size: 1.05rem;
+            font-size: 1rem;
             line-height: 1.6;
             color: #333;
         }

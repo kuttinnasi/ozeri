@@ -39,7 +39,7 @@ include 'config.php';
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
         .detail-text {
-            font-size: 1.1rem;
+            font-size: 1rem;
             line-height: 1.5;
             color: #444;
             text-align: justify;

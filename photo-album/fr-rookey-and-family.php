@@ -23,7 +23,7 @@ include '../config.php';
             margin-bottom: 20px;
         }
         .gallery-item img {
-            width: 100%;
+            /* width: 100%; */
             max-width: 250px;
             height: auto;
             margin: 0 auto;

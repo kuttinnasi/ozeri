@@ -25,7 +25,7 @@
             margin-bottom: 30px;
         }
         .prayer-header h3 {
-            font-family: 'Playfair Display', serif;
+            font-family: "Gupter", serif;
             font-size: 27px;
             color: #333;
             margin-bottom: 5px;
@@ -33,9 +33,11 @@
             text-transform: uppercase;
         }
         .prayer-author {
-            font-size: 1.2rem;
-            color: #555;
-            font-style: italic;
+            font-family: "Gupter", serif;            
+            font-size: 23px;
+            color: #000;
+            font-weight: 700;
+            /* font-style: italic; */
         }
         .video-wrapper {
             margin: 40px 0;
@@ -48,7 +50,7 @@
             padding: 25px;
             border-radius: 8px;
             /* border: 1px solid #f2f8ff; */
-            line-height: 1.8;
+            /* line-height: 1.8; */
             font-size: 1.1rem;
             color: #333;
             text-align: center;
@@ -56,6 +58,9 @@
         }
         .prayer-text-block p {
             margin-bottom: 25px;
+            font-size: 21px;
+            font-family: "Gupter", serif;
+            font-weight: 400;
         }
     </style>
 </head>
@@ -73,7 +78,7 @@
                 <div class="">
                     <div class="prayer-header">
                         <h3>MIRACLE PRAYER</h3>
-                        <div class="prayer-author">— by Father Peter Rookey</div>
+                        <div class="prayer-author">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— by Father Peter Rookey</div>
                     </div>
 
                     <div class="video-wrapper">

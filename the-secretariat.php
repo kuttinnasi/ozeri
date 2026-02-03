@@ -13,7 +13,7 @@ include 'config.php';
             background: #fff;
         }
         .books-title {
-            font-size: 2.2rem;
+            font-size: 1.9rem;
             color: #1a4b7e;
             font-weight: 700;
             margin-bottom: 30px;

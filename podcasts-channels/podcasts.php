@@ -109,13 +109,11 @@
                     <p>This podcast channel presents an archive of interviews and conversations with Fr Peter Mary Rookey OSM (1916-2014) and honors his blessed memory by continuing his ministry in this way. Fr Peter was a friar and priest within the Order of the Servants of Mary. He was referred to as 'The Man of Miracles' and 'The Healing Priest', since the Lord worked thousands of miraculous healings of body and soul through him. Fr. Peter was born in Superior, Wisconsin on October 12, 1916 and was born to eternal life on September 10, 2014 at Our Lady of Sorrows Basilica in Chicago, Illinois.</p>
 
                     <div class="link-block">
-                        <span class="podcast-info-header">ON APPLE iPHONE OR iPAD:</span>
-                        <a href="https://anchor.fm/s/5a331274/podcast/rss" target="_blank">https://anchor.fm/s/5a331274/podcast/rss</a>
+                        <span class="podcast-info-header">ON APPLE iPHONE OR iPAD:</span> <a href="https://anchor.fm/s/5a331274/podcast/rss" target="_blank">https://anchor.fm/s/5a331274/podcast/rss</a>
                     </div>
 
                     <div class="link-block">
-                        <span class="podcast-info-header">ON APPLE OR OTHER DEVICES:</span>
-                        <a href="https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG" target="_blank">https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG</a> (Free Spotify account required)
+                        <span class="podcast-info-header">ON APPLE OR OTHER DEVICES:</span> <a href="https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG" target="_blank">https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG</a> (Free Spotify account required)
                     </div>
 
                     <span class="sub-header">ON A COMPUTER:</span>
