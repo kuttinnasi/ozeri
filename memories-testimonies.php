@@ -79,8 +79,10 @@ include 'config.php';
             border: solid 1px #1a4b7e;
         }
         .tab-btn.active {
-            background: #1a4b7e;
-            color: #fff;
+            background: #fff;
+            color: #1a4b7e;
+            border: 2px solid #1a4b7e;
+            font-weight: 700;
         }
 
         /* Content Area */

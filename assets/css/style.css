@@ -742,14 +742,15 @@ h3 {
 }
 
 .home-icon {
-    background: #8f9dbe !important;
+    background: transparent;
     /* Blue-grey like in image */
     padding: 5px 12px !important;
-    border-radius: 0;
+    border-radius: 4px;
+    /* match other links */
 }
 
 .home-icon i {
-    color: #333;
+    color: #fff;
 }
 
 /* Hero Split Layout */
@@ -1520,4 +1521,15 @@ textarea.form-control {
     border: 1px solid var(--color-primary);
     color: var(--color-primary);
     background-color: #fff;
+}
+
+/* Active Menu Styles */
+body .site-nav a.active,
+body .site-nav .dropdown-toggle.active,
+body .dropdown-menu a.active {
+    background: #8f9dbe !important;
+    color: #333 !important;
+    padding: 5px 12px !important;
+    border-radius: 4px;
+    font-weight: 700 !important;
 }
