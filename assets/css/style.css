@@ -290,8 +290,10 @@ h3 {
     /* border: 2px solid #8b0000; */
 }
 
-.nav-dropdown:hover .dropdown-menu {
-    display: flex;
+@media (min-width: 1024px) {
+    .nav-dropdown:hover .dropdown-menu {
+        display: flex;
+    }
 }
 
 .dropdown-menu a {
@@ -299,6 +301,7 @@ h3 {
     font-size: 0.9rem !important;
     color: #333 !important;
     background: #8f9dbe;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid #fff;
     font-family: "PT Sans", sans-serif;
     font-weight: 500;
@@ -342,6 +345,63 @@ h3 {
     z-index: 10000;
     /* Ensure it's on top */
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-menu.active .nav-row {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.nav-menu.active a {
+    display: block;
+    padding: 10px;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile Dropdown Support */
+.nav-dropdown.active .dropdown-menu {
+    display: flex;
+    position: static;
+    /* Relative to flow in mobile */
+    box-shadow: none;
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-left: 0;
+    padding-left: 20px;
+    border-left: 4px solid var(--color-secondary);
+}
+
+.nav-menu.active .nav-dropdown {
+    width: 100%;
+    display: block;
+}
+
+.nav-menu.active .dropdown-menu a {
+    color: white !important;
+    background: transparent !important;
+    font-size: 0.95rem !important;
+    padding: 10px 0 !important;
+    text-align: left;
+    white-space: normal;
+    /* Allow text wrapping on mobile */
+}
+
+/* Ensure the toggle itself is styled right in mobile */
+.nav-menu.active .dropdown-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-menu.active .dropdown-toggle i {
+    transition: transform 0.3s ease;
+}
+
+.nav-dropdown.active .dropdown-toggle i {
+    transform: rotate(180deg);
 }
 
 /* Hero Section */
@@ -559,7 +619,8 @@ h3 {
     /* Mobile Layout Matching Reference Image 1 */
     .header-logo-area {
         justify-content: center;
-        gap: 5px;
+        /* gap: 5px; */
+        flex-wrap: nowrap;
     }
 
     /* Keep Text + Seal on one line (Row 1) */
@@ -571,12 +632,19 @@ h3 {
     }
 
     /* Force Petition to new line (Row 2) and center it */
+    .seal-img {
+        height: 90px !important;
+        width: auto;
+        margin-top: 4px;
+        margin-left: 0px !important;
+    }
+
     .petition-group {
-        flex-basis: 100%;
-        /* Forces wrap */
-        text-align: center;
-        align-items: center;
-        margin-top: 5px;
+        flex-basis: auto;
+        /* Allow side-by-side */
+        text-align: left;
+        align-items: flex-start;
+        margin-top: 0;
     }
 
     /* Adjust sizes for mobile */
@@ -589,13 +657,24 @@ h3 {
     }
 
     .seal-img {
-        height: 65px !important;
+        height: 70px !important;
         width: 80% !important;
     }
 
     .petition-link,
     .petition-sub {
-        font-size: 1rem !important;
+        font-size: 0.8rem !important;
+        margin-left: 0 !important;
+    }
+
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 800px;
+        margin: 0 auto -50px auto !important;
+        min-height: 150px !important;
     }
 }
 
@@ -609,6 +688,7 @@ h3 {
     }
 
     .seal-img {
+        margin-left: 15px !important;
         height: 55px !important;
     }
 }
@@ -626,7 +706,9 @@ h3 {
     padding: 0 20px;
     display: block;
     /* Allow rows to wrap naturally */
+
 }
+
 
 .nav-row {
     display: flex;
@@ -978,7 +1060,16 @@ textarea.form-control {
         padding: 0px 0 !important;
         position: relative;
     }
+
+    .section-content p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        /* text-align: center; */
+        margin-top: 55px !important;
+    }
+
 }
+
 
 
 .slide {
@@ -1406,7 +1497,7 @@ textarea.form-control {
 }
 
 .seal-img {
-    height: 90px !important;
+    /* height: 90px !important; */
     width: auto;
     margin-top: 4px;
     margin-left: -20px;

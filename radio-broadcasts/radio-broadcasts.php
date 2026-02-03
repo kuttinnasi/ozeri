@@ -131,5 +131,4 @@
     <!--====== Jquery js ======-->
     <?php include '../includes/script-links.php'; ?>
 </body>
-
 </html>

@@ -26,8 +26,24 @@ function initMobileMenu() {
       }
     });
 
-    // Close menu when clicking a link
-    menu.querySelectorAll('a').forEach(link => {
+
+    // Handle Dropdowns on Mobile
+    const dropdowns = menu.querySelectorAll('.dropdown-toggle');
+    dropdowns.forEach(dd => {
+      dd.addEventListener('click', (e) => {
+        if (window.innerWidth <= 1024) { // Only on mobile/tablet
+          e.preventDefault();
+          const parent = dd.closest('.nav-dropdown');
+          if (parent) {
+            parent.classList.toggle('active');
+          }
+        }
+      });
+    });
+
+    // Close menu when clicking a standard link (not a dropdown toggle)
+    menu.querySelectorAll('a:not(.dropdown-toggle)').forEach(link => {
+
       link.addEventListener('click', () => {
         menu.classList.remove('active');
         const icon = toggle.querySelector('i');

@@ -156,11 +156,11 @@ include 'config.php';
             padding: 25px;
         }
         .story-content {
-            font-size: 1.05rem;
+            font-size: .95rem;
             text-align: justify;
         }
         .story-content p {
-            margin-bottom: 18px;
+            margin-bottom: 15px !important;
         }
         .story-location {
             font-weight: 700;
