@@ -44,6 +44,7 @@
             /* box-shadow: 0 10px 30px rgba(0,0,0,0.1); */
             border-radius: 8px;
             overflow: hidden;
+            background: #f2f8ff;
         }
         .prayer-text-block {
             background: #f2f8ff;
@@ -54,13 +55,15 @@
             font-size: 1.1rem;
             color: #333;
             text-align: center;
-            margin-bottom: 70px;
+            margin-bottom: 30px;
+            margin-top: -47px;
         }
         .prayer-text-block p {
             margin-bottom: 25px;
             font-size: 21px;
             font-family: "Gupter", serif;
             font-weight: 400;
+            line-height: 22px;
         }
     </style>
 </head>
@@ -88,11 +91,11 @@
                     </div>
 
                     <div class="prayer-text-block">
-                        <p>“Lord Jesus, I come before you just as I am. I am sorry for my sins. I repent of my sins, please forgive me. In your name I forgive all others for what they have done against me. I renounce satan, the evil spirits and all their works. I give you my entire self, Lord Jesus, now and forever. I invite you into my life, Jesus. I accept you as my Lord, God and Saviour. Heal me, change me, strengthen me in body, soul and spirit.</p>
+                        <p>“Lord Jesus, I come before you just as I am. I am sorry for my sins. I repent of my sins, please forgive me. In your<br>name I forgive all others for what they have done against me. I renounce satan, the evil spirits and all their works.<br>I give you my entire self, Lord Jesus, now and forever. I invite you into my life, Jesus. I accept you as my<br>Lord, God and Saviour. Heal me, change me, strengthen me in body, soul and spirit.</p>
                         
-                        <p>Come, Lord Jesus, cover me with your precious blood, and fill me with your Holy Spirit. I Love You, Lord Jesus. I Praise You, Jesus. I Thank You, Jesus. I shall follow you every day of my life. Amen.</p>
+                        <p>Come, Lord Jesus, cover me with your precious blood, and fill me with your Holy Spirit. I Love You, Lord Jesus.<br>I Praise You, Jesus. I Thank You, Jesus. I shall follow you every day of my life. Amen.</p>
                         
-                        <p>Mary, my mother, Queen of Peace, St. Peregrine, the cancer saint, all you Angels and Saints, please help me. Amen.”</p>
+                        <p>Mary, my mother, Queen of Peace, St. Peregrine, the cancer saint, all you Angels and Saints, please help me.<br>Amen.”</p>
                     </div>
                 </div>
             </div>

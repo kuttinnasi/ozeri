@@ -138,6 +138,7 @@ if(isset($_POST['submit_testimony'])){
         .share-section {
             padding: 40px 0;
             background: #fff;
+            padding-top: 5px;
         }
         .share-form-wrapper {
             background-color: #eee;
@@ -158,6 +159,7 @@ if(isset($_POST['submit_testimony'])){
             color: #333;
             margin-bottom: 15px;
             font-weight: 700;
+            margin-top: -25px;
         }
         .form-label span {
             color: red;
@@ -221,11 +223,9 @@ if(isset($_POST['submit_testimony'])){
 
     <main class="share-section">
         <div class="container">
-            <h1 class="blog-title" style="margin-bottom: 20px;">Share Your Memories or Healing Testimonies</h1>
+            <h1 class="blog-title" style="margin-bottom: 20px;">Share Your Memories or Healing Testimonies of Fr. Rookey</h1>
             
             <div class="share-form-wrapper">
-                <h3 style="margin-bottom: 25px; text-align: center; color: #1a4b7e;">Share Your Memories or Healing Testimonies</h3>
-                
                 <?php if($msg): ?>
                     <div class="alert alert-success"><?php echo $msg; ?></div>
                 <?php endif; ?>
@@ -280,11 +280,9 @@ if(isset($_POST['submit_testimony'])){
         <div class="instruction-text">
                 <h3>Please share your wonderful memories of Fr. Rookey or testimonies of healings for public display. Or, send them in writing, including your hand-written signature to:</h3>
                 
-                <div class="address-box">
-                    Timothy Rookey<br>
-                    2040 Allen Blvd #6<br>
-                    Middleton, WI 53562
-                </div>
+                <p style="margin-top: 40px;">Timothy Rookey</p>
+                <p style="margin-bottom: 15px; margin-top: 15px">2040 Allen Blvd #6</p>
+                <p>Middleton, WI 53562</p>
 
                 <p style="margin-bottom: 15px; margin-top: 15px">Please tell us of your experiences with Fr. Rookey, your friendship with him, what makes you think he should be proclaimed a saint by the Catholic Church, what healings, miracles, or mystical phenomena you yourself or someone you knew experienced, or what virtues you saw displayed by Fr. Rookey.</p>
                 

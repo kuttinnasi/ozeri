@@ -9,13 +9,13 @@ include 'config.php';
     <?php include 'includes/head-links.php'; ?>
     <style>
         .article-detail-section {
-            padding: 50px 0;
+            padding: 25px 0;
             background: #fff;
         }
         .detail-title {
-            font-size: 1.9rem;
+            font-size: 30px;
             color: #1a4b7e;
-            font-weight: 700;
+            font-weight: 600;
             margin-bottom: 30px;
             padding-bottom: 15px;
             border-bottom: 1px solid #1a4b7e;

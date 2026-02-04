@@ -71,6 +71,15 @@
             /* font-style: italic; */
         }
     </style>
+    <style>
+        .track-list tr.active {
+            background-color: #e3effd; /* Light slightly blue background */
+            font-weight: 700;
+        }
+        .track-list tr.active td {
+            color: #2c5aa0;
+        }
+    </style>
 </head>
 
 <body>
@@ -101,21 +110,21 @@
                         </audio>
                         
                         <table class="track-list">
-                            <tr><td>1. Seek Ye First</td><td class="duration">5:10</td></tr>
-                            <tr><td>2. The First Sorrow of the Blessed Mother: The Prophecy Of Simeon</td><td class="duration">4:43</td></tr>
-                            <tr><td>3. Healer Of My Soul</td><td class="duration">5:00</td></tr>
-                            <tr><td>4. The Second Sorrow: The Flight Into Egypt</td><td class="duration">4:50</td></tr>
-                            <tr><td>5. Lord You Are So Precious</td><td class="duration">4:26</td></tr>
-                            <tr><td>6. The Third Sorrow: The Three Days Loss Of Jesus</td><td class="duration"></td></tr>
-                            <tr><td>7. Lord Your Name Is Holy</td><td class="duration">4:43</td></tr>
-                            <tr><td>8. The Fourth Sorrow: Mary Meets Jesus On The Way To Calvary</td><td class="duration">4:54</td></tr>
-                            <tr><td>9. Ubi Caritas & Sing My Tongue</td><td class="duration">4:55</td></tr>
-                            <tr><td>10. The Fifth Sorrow: Mary Sees the Crucifixion of Jesus</td><td class="duration">5:19</td></tr>
-                            <tr><td>11. Lamb Of God</td><td class="duration">2:39</td></tr>
-                            <tr><td>12. The Sixth Sorrow: Mary Recieves The Body Of Jesus</td><td class="duration">5:13</td></tr>
-                            <tr><td>13. Halleluja My Father</td><td class="duration">3:29</td></tr>
-                            <tr><td>14. The Seventh Sorrow: Mary Accompanies Jesus' Body To The Tomb</td><td class="duration">6:51</td></tr>
-                            <tr><td>15. Ave Maria & The Miracle Prayer</td><td class="duration">6:49</td></tr>
+                            <tr><td><a href="../assets/img/video/01-Seek-Ye-First.mp3">1. Seek Ye First</a></td><td class="duration">5:10</td></tr>
+                            <tr><td><a href="../assets/img/video/02-The-First-Sorrow-of-the-Blessed-Mother-The-Prophecy-Of-Simeon.mp3">2. The First Sorrow of the Blessed Mother: The Prophecy Of Simeon</a></td><td class="duration">4:43</td></tr>
+                            <tr><td><a href="../assets/img/video/03-Healer-Of-My-Soul.mp3">3. Healer Of My Soul</a></td><td class="duration">5:00</td></tr>
+                            <tr><td><a href="../assets/img/video/04-The-Second-Sorrow-The-Flight-Into-Egypt.mp3">4. The Second Sorrow: The Flight Into Egypt</a></td><td class="duration">4:50</td></tr>
+                            <tr><td><a href="../assets/img/video/05-Lord-You-Are-So-Precious.mp3">5. Lord You Are So Precious</a></td><td class="duration">4:26</td></tr>
+                            <tr><td><a href="../assets/img/video/06-The-3rd-Sorrow-The-Three-Days-Loss-Of-Jesus.mp3">6. The Third Sorrow: The Three Days Loss Of Jesus</a></td><td class="duration"></td></tr>
+                            <tr><td><a href="../assets/img/video/07-Lord-Your-Name-Is-Holy.mp3">7. Lord Your Name Is Holy</a></td><td class="duration">4:43</td></tr>
+                            <tr><td><a href="../assets/img/video/08-The-4th-Sorrow-Mary-Meets-Jesus-On-The-Way-To-Calvary.mp3">8. The Fourth Sorrow: Mary Meets Jesus On The Way To Calvary</a></td><td class="duration">4:54</td></tr>
+                            <tr><td><a href="../assets/img/video/09-Ubi-Caritas-Sing-My-Tongue.mp3">9. Ubi Caritas & Sing My Tongue</a></td><td class="duration">4:55</td></tr>
+                            <tr><td><a href="../assets/img/video/10-The-5th-Sorrow-Mary-Sees-The-Crucifixion.mp3">10. The Fifth Sorrow: Mary Sees the Crucifixion of Jesus</a></td><td class="duration">5:19</td></tr>
+                            <tr><td><a href="../assets/img/video/11-Lamb-Of-God.mp3">11. Lamb Of God</a></td><td class="duration">2:39</td></tr>
+                            <tr><td><a href="../assets/img/video/12-The-6th-Sorrow-Mary-Recieves-The-Body-Of-Jesus.mp3">12. The Sixth Sorrow: Mary Recieves The Body Of Jesus</a></td><td class="duration">5:13</td></tr>
+                            <tr><td><a href="../assets/img/video/13-Halleluia.mp3">13. Halleluja My Father</a></td><td class="duration">3:29</td></tr>
+                            <tr><td><a href="../assets/img/video/14-The-7th-Sorrow-Mary-Accompanies-Jesus-Body-To-The-Tomb.mp3">14. The Seventh Sorrow: Mary Accompanies Jesus' Body To The Tomb</a></td><td class="duration">6:51</td></tr>
+                            <tr><td><a href="../assets/img/video/15-Ave-Maria-The-Miracle-Prayer.mp3">15. Ave Maria & The Miracle Prayer</a></td><td class="duration">6:49</td></tr>
                         </table>
                     </div>
                     
@@ -139,8 +148,8 @@
                         </audio>
                         
                         <table class="track-list">
-                            <tr><td>1. The Holy Rosary Part 1</td><td class="duration">45:38</td></tr>
-                            <tr><td>2. The Holy Rosary Part 2</td><td class="duration">37:49</td></tr>
+                            <tr><td><a href="../assets/img/video/The-Holy-Rosary-Part-1.mp3">1. The Holy Rosary Part 1</a></td><td class="duration">45:38</td></tr>
+                            <tr><td><a href="../assets/img/video/The-Holy-Rosary-Part-2.mp3">2. The Holy Rosary Part 2</a></td><td class="duration">37:49</td></tr>
                         </table>
                     </div>
                 </div>
@@ -158,6 +167,51 @@
 
     <!--====== Jquery js ======-->
     <?php include '../includes/script-links.php'; ?>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Select all player instances
+            const players = document.querySelectorAll('.custom-player');
+
+            players.forEach(player => {
+                const audio = player.querySelector('audio');
+                const links = player.querySelectorAll('.track-list a');
+                const titleDisplay = player.querySelector('.player-text .album');
+                const rows = player.querySelectorAll('.track-list tr');
+
+                if (audio && links.length > 0) {
+                    // Optional: Initialize text for the first track if needed
+                    // But current static text is specific ("Canticle of Love"), so we might leave it until clicked.
+
+                    links.forEach(link => {
+                        link.addEventListener('click', function(e) {
+                            e.preventDefault(); // Stop download/navigation
+
+                            // 1. Update Audio Source
+                            const audioSrc = this.getAttribute('href');
+                            audio.src = audioSrc;
+                            
+                            // 2. Play
+                            audio.play();
+
+                            // 3. Update Title Display
+                            // We replace the album/song info with the clicked track title
+                            if (titleDisplay) {
+                                titleDisplay.innerHTML = this.innerText; 
+                            }
+
+                            // 4. Highlight Active Row
+                            rows.forEach(row => row.classList.remove('active'));
+                            const parentRow = this.closest('tr');
+                            if (parentRow) {
+                                parentRow.classList.add('active');
+                            }
+                        });
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

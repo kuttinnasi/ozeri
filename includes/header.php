@@ -13,36 +13,34 @@ if(!function_exists('active_link')){
 }
 ?>
 <div class="top-header-wrapper">
-    <div class="container top-banner">
-        
-        <!-- Collage -->
-        <div class="banner-collage">
-            <img src="<?= BASE_URL ?>/assets/img/header-1.png" 
-                 alt="Fr. Peter Mary Rookey Life Collage">
-        </div>
+    <div class="container">
+        <div class="row align-items-center m-0 responsive">
+            <!-- Collage Section -->
+            <div class="col-lg-8 col-md-12 p-0">
+                 <div class="banner-collage-wrapper">
+                    <img src="<?= BASE_URL ?>/assets/img/header-1.png" alt="Fr. Peter Mary Rookey Life Collage" class="img-fluid w-100 d-block">
+                 </div>
+            </div>
 
-        <!-- Logo + Petition -->
-        <div class="header-logo-area">
-            
-            <div class="logo-seal-group">
-                <div class="logo-text-group">
-                    <!-- <div class="servite-text">Servite Friar</div>
-                    <div class="friar-name">Fr.Peter Mary Rookey</div> -->
+            <!-- Branding Section -->
+            <div class="col-lg-4 col-md-12">
+                <div class="header-branding-area">
+                    <div class="brand-content-wrapper">
+                        <div class="brand-seal">
+                            <a href="<?= BASE_URL ?>/index.php">
+                                <img src="<?= BASE_URL ?>/assets/img/logo.png" alt="OSM Seal" class="seal-img">
+                            </a>
+                        </div>
+                        <div class="brand-text">
+                            <div class="cta-links">
+                                <a href="<?= BASE_URL ?>/petition-of-support-for-fr-rookeys-canonization/" class="cta-link red-link">Click here to sign petition</a>
+                                <a href="#" class="cta-link blue-link">His Cause For Canonization</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                 <a href="<?= BASE_URL ?>/index.php"><img src="<?= BASE_URL ?>/assets/img/logo.png" class="seal-img" alt="OSM Seal"></a>
             </div>
-
-            <div class="petition-group">
-                <a href="<?= BASE_URL ?>/petition.php" class="petition-link">
-                    Click here to sign petition
-                </a>
-                <span class="petition-sub">
-                    His Cause For Canonization
-                </span>
-            </div>
-
         </div>
-
     </div>
 </div>
 

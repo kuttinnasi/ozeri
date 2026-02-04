@@ -9,7 +9,7 @@ include 'config.php';
     <?php include 'includes/head-links.php'; ?>
     <style>
         .books-section {
-            padding: 50px 0;
+            padding: 20px 0;
             background: #fff;
         }
         .books-title {
@@ -21,7 +21,7 @@ include 'config.php';
             border-bottom: 1px solid #1a4b7e;
         }
         .books-content {
-            font-size: 1.1rem;
+            font-size: 16px;
             line-height: 1.7;
             color: #333;
             margin-bottom: 40px;
@@ -32,15 +32,15 @@ include 'config.php';
         .book-gallery {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
-            margin-top: 50px;
+            /* gap: 20px; */
+            margin-top: -15px;
         }
         .book-item {
             text-align: center;
         }
         .book-item img {
             width: 100%;
-            max-width: 220px;
+            max-width: 160px;
             height: auto;
             border: 1px solid #ddd;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);

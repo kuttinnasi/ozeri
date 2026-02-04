@@ -156,7 +156,7 @@ $res_data = mysqli_query($conn, $data_sql);
     <?php include 'includes/head-links.php'; ?>
     <style>
         .petition-section {
-            padding: 40px 0;
+            padding: 0px 0;
             background: #fff;
         }
         .page-title {
@@ -202,7 +202,7 @@ $res_data = mysqli_query($conn, $data_sql);
         }
         .form-group label {
             width: 220px;
-            font-size: 13px;
+            font-size: 14px;
             font-weight: 700;
             color: #333;
             line-height: 1.3;
@@ -216,7 +216,7 @@ $res_data = mysqli_query($conn, $data_sql);
             border: 1px solid #ccc;
             border-radius: 4px;
             font-size: 14px;
-            color: #555;
+            color: #424646;
             background: #fff;
         }
         .btn-submit {
@@ -254,7 +254,7 @@ $res_data = mysqli_query($conn, $data_sql);
             width: 100%;
             border-collapse: collapse;
             font-family: Arial, sans-serif;
-            border: 1px solid #ddd;
+            border: 1px solid #000;
             margin-bottom: 20px;
         }
         .petition-table thead tr {
@@ -270,7 +270,7 @@ $res_data = mysqli_query($conn, $data_sql);
         }
         .petition-table td {
             padding: 12px 15px;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid #000;
             font-size: 14px;
             color: #444;
         }

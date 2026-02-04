@@ -86,105 +86,105 @@ include '../config.php';
             <div class="gallery-grid">
                 <!-- Cover Image -->
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/IMG_4497-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/IMG_4497.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friends Bob Benson & Sabina Reyes</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/fr.-peter-with-marge-and-gary-150x150.jpeg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/fr.-peter-with-marge-and-gary.jpeg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friends Barbara Wojtowicz, Kathy Quasey and Liz Murray</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/img20180425_10303318-Copy-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/img20180425_10303318-Copy.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friend Margaret Trosclair</div>
                 </div>
             </div>
             <div class="gallery-grid">
                 <!-- Cover Image -->
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/fr-97-bday-w-pohlmans-Copy-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/fr-97-bday-w-pohlmans-Copy.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friends Janice & Peter Pohlman</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/PA210195-Copy-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/PA210195-Copy.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friends Gloria, Gayle Ponsetti and Mary Scannell</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/PA210196-Copy-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/PA210196-Copy.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friends Jim & Eileen Staunton</div>
                 </div>
             </div>
             <div class="gallery-grid">
                 <!-- Cover Image -->
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/PA210217-Copy-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/PA210217-Copy.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friend Vicki Guttierez</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/PA210207-Copy-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/PA210207-Copy.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friends Dr. Vincent Oganwu & His Wife</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/Fr.-Peter-David-Parkes-Guy-Murphy-4-27-13-Copy-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/Fr.-Peter-David-Parkes-Guy-Murphy-4-27-13-Copy.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friends David Parkes & Guy Murphy</div>
                 </div>
             </div>
             <div class="gallery-grid">
                 <!-- Cover Image -->
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/Betty-and-Joe-Malone-Copy-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/Betty-and-Joe-Malone-Copy.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friends Betty and Joe Malone</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/img20181109_10551881-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/img20181109_10551881.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friend Sister Joan Ann Springman</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/Fr.-Rookey-Connies-6-15-13-Copy-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/Fr.-Rookey-Connies-6-15-13-Copy.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friends Annette & Dennis O’Donnell with son Emmanuel</div>
                 </div>
             </div>
             <div class="gallery-grid">
                 <!-- Cover Image -->
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/img20170524_12573233-Copy-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/img20170524_12573233-Copy.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friend Sylvia Kentgens</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/fr.-peter-with-marge-and-gary-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/fr.-peter-with-marge-and-gary.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friends Marge & Gary Theis</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/Fr.-Peter-Christine-Copy-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/Fr.-Peter-Christine-Copy.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friend Christine Rossi</div>
                 </div>
             </div>
             <div class="gallery-grid">
                 <!-- Cover Image -->
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/Fr.-Peter-and-Barbara-Herzic-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/Fr.-Peter-and-Barbara-Herzic.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friends Barbara Herzic & Fr. David Simonetti</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/img20200524_15284734-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/img20200524_15284734.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friend Fr. James Holup</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/307715_10150447777308888_1437390509_n-Copy-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/307715_10150447777308888_1437390509_n-Copy.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Little friend Emmanuel, son of Dennis and Annette O’Donnell</div>
                 </div>
             </div>
             <div class="gallery-grid">
                 <!-- Cover Image -->
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/fr-peter-and-annie-karto-1-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/fr-peter-and-annie-karto-1.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friend Annie Karto</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/Fr2-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/Fr2.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friend Dolores Hope with Father on her 100th birthday in 2009</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../assets/img/fr-rookey-friends/fr-and-vicki-may-06-Copy-150x150.jpg" alt="Fr. Rookey & Friends Cover">
+                    <img src="../assets/img/fr-rookey-friends/fr-and-vicki-may-06-Copy.jpg" alt="Fr. Rookey & Friends Cover">
                     <div class="caption">Friend Marge Ryan standing on right and Vickie Guiterrez below her</div>
                 </div>
             </div>

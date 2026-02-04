@@ -268,6 +268,7 @@ h3 {
 .nav-dropdown {
     position: relative;
     display: inline-block;
+    margin-top: 4px;
 }
 
 .nav-dropdown .dropdown-toggle {
@@ -473,223 +474,180 @@ h3 {
 }
 
 /* Top Banner Area */
-/* Top Banner Area */
 .top-header-wrapper {
-    background: #f8f8f8;
+    background: #fff;
     border-top: 3px solid #000;
 }
 
-.top-banner {
+.banner-collage-wrapper {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    /* align-items: center; */
-    /* padding: 0;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.banner-collage-wrapper img {
     width: 100%;
-    max-width: 100%; */
+    height: auto;
+    object-fit: cover;
 }
 
-@media (max-width: 768px) {
-    .top-banner {
-        overflow: hidden;
-        display: ruby;
-        /* Or allow scroll, but usually we want to scale */
-    }
-
-}
-
-
-.petition-sub {
-    color: var(--color-primary);
-    font-size: 0.70rem !important;
-    font-weight: bold;
-    text-decoration: none;
-    font-style: italic;
-    display: block;
-    margin-top: -4px;
-    margin-right: 10px;
-}
-
-.banner-collage {
-    display: flex;
-    /* height: 140px;ss */
-    flex: 1 1 auto;
-    min-width: 0;
-    margin-bottom: -10px;
-}
-
-/* .banner-collage img {
-    height: 90%;
-    width: 100%; */
-/* object-fit: cover; */
-/* } */
-
-
-
-.header-logo-area {
-    display: flex;
-    flex-wrap: wrap;
-    /* Allows wrapping on small screens */
-    align-items: center;
-    justify-content: center !important;
-    /* gap: 15px; */
-    margin-top: -4px;
-}
-
-.logo-seal-group {
+/* Branding Area */
+.header-branding-area {
+    padding: 10px 15px;
     display: flex;
     align-items: center;
-    /* gap: 10px; */
+    justify-content: center;
+    padding-left: 40px;
 }
 
-.logo-text-group {
+.brand-content-wrapper {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.brand-text {
+    text-align: center;
+    margin-right: 60px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
+    align-items: center;
 }
 
-.servite-text {
+.servite-title {
     font-family: var(--font-heading);
-    font-size: 1.4rem;
-    color: #8da4c3;
-    margin-bottom: 0px;
-    line-height: 1;
     font-style: italic;
+    color: #8da4c3;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 2px;
 }
 
-.friar-name {
+.friar-name-title {
     font-family: var(--font-heading);
-    font-size: 2.3rem;
+    color: #1F4E79;
+    font-size: 2.4rem;
     font-weight: 700;
-    color: #1a4b7e;
     line-height: 1.1;
     white-space: nowrap;
+    margin-bottom: 5px;
 }
 
-.seal-img {
-    height: 85px !important;
-    /* Larger on desktop */
-    width: auto;
-    margin: 0 5px;
-}
-
-.petition-group {
+.cta-links {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: left;
+    align-items: center;
 }
 
-.petition-link {
-    color: #ff0000;
-    font-weight: bold;
+.cta-link {
+    font-family: var(--font-body);
     font-style: italic;
+    font-weight: 700;
+    font-size: 15px;
     text-decoration: none;
-    font-size: 1.1rem !important;
-    display: block;
-    line-height: 1.2;
-    margin-top: 5px;
-    margin-left: -60px !important;
+    line-height: 1.3;
 }
 
-.petition-sub {
-    color: var(--color-primary);
-    font-size: 1.1rem !important;
-    font-weight: bold;
+.cta-link:hover {
     text-decoration: none;
-    font-style: italic;
-    display: block;
-    line-height: 1.2;
-    margin-top: 5px;
-    margin-left: -60px !important;
 }
 
-/* Responsive Styles */
+.red-link {
+    color: #f00;
+}
+
+.blue-link {
+    color: #1F4E79;
+}
+
+.brand-seal .seal-img {
+    height: 89px !important;
+    width: 100%;
+    margin: 0;
+}
+
+/* Responsive Adjustments */
 @media (max-width: 991px) {
-    .header-logo-area {
-        justify-content: center;
-        /* Center on tablet */
+    .friar-name-title {
+        font-size: 2rem;
+    }
+
+    .servite-title {
+        font-size: 1.3rem;
+    }
+
+    .header-branding-area {
+        margin-bottom: -3px;
+        margin-top: 5px;
     }
 }
 
 @media (max-width: 768px) {
+    .header-branding-area {
+        flex-direction: column;
+        text-align: center;
+    }
 
-    /* Mobile Layout Matching Reference Image 1 */
-    .header-logo-area {
+    .brand-content-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
-        /* gap: 5px; */
-        flex-wrap: nowrap;
+        width: 100%;
+        /* display: contents; */
     }
 
-    /* Keep Text + Seal on one line (Row 1) */
-    .logo-seal-group {
+    .banner-collage-wrapper img {
+        width: 100%;
+        height: 92px;
+        object-fit: cover;
+    }
+
+    .responsive {
+        display: flex;
+        /* margin-bottom: -18px; */
+    }
+
+    .brand-text {
+        margin-right: 15px;
         width: auto;
-        justify-content: center;
-        flex-wrap: nowrap;
-        /* Enforce single line */
+        margin-bottom: 0;
+        align-items: flex-end;
+        /* Align closer to seal? Or Center? */
+        align-items: center;
     }
 
-    /* Force Petition to new line (Row 2) and center it */
-    .seal-img {
-        height: 90px !important;
-        width: auto;
-        margin-top: 4px;
-        margin-left: 0px !important;
+    .friar-name-title {
+        font-size: 1.5rem;
+        white-space: normal;
     }
 
-    .petition-group {
-        flex-basis: auto;
-        /* Allow side-by-side */
-        text-align: left;
-        align-items: flex-start;
-        margin-top: 0;
-    }
-
-    /* Adjust sizes for mobile */
-    .friar-name {
-        font-size: 1.6rem;
-    }
-
-    .servite-text {
+    .servite-title {
         font-size: 1.1rem;
     }
 
-    .seal-img {
-        height: 70px !important;
-        width: 80% !important;
+    .cta-link {
+        font-size: 0.6rem;
+        margin-left: -36px;
     }
 
-    .petition-link,
-    .petition-sub {
-        font-size: 0.8rem !important;
-        margin-left: 0 !important;
-    }
-
-    .video-container {
-        position: relative;
-        padding-bottom: 56.25%;
-        height: 0;
-        overflow: hidden;
-        max-width: 800px;
-        margin: 0 auto -50px auto !important;
-        min-height: 150px !important;
+    .brand-seal .seal-img {
+        height: 60px !important;
+        margin-top: -15px;
     }
 }
 
 @media (max-width: 480px) {
-    .friar-name {
-        font-size: 1.4rem;
+
+    /* Stack on very small screens */
+    .brand-content-wrapper {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .servite-text {
-        font-size: 1rem;
-    }
-
-    .seal-img {
-        margin-left: 15px !important;
-        height: 55px !important;
+    .brand-text {
+        margin-right: 0;
+        margin-bottom: 15px;
     }
 }
 
@@ -1181,9 +1139,9 @@ textarea.form-control {
 .blog-title {
     font-size: 30px;
     font-weight: 600;
-    color: #1a4b7e;
+    color: #1a4b7e !important;
     padding: 25px 0;
-    border-bottom: 1px solid #8a98ba;
+    border-bottom: 1px solid #8a98ba !important;
     margin-bottom: 30px !important;
     font-family: "PT Sans", sans-serif;
 }
@@ -1299,12 +1257,12 @@ textarea.form-control {
 }
 
 .relic-item a:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transform: translateY(-2px);
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
+    /* transform: translateY(-2px); */
 }
 
 .relic-item img {
-    width: 60% !important;
+    /* width: 60% !important; */
     /* Back to small on page */
     max-width: 180px;
     height: auto;
@@ -1528,8 +1486,23 @@ body .site-nav a.active,
 body .site-nav .dropdown-toggle.active,
 body .dropdown-menu a.active {
     background: #8f9dbe !important;
-    color: #333 !important;
-    padding: 5px 12px !important;
+    color: #fff !important;
+    padding: 5px 7px !important;
     border-radius: 4px;
-    font-weight: 700 !important;
+    /* font-weight: 700 !important; */
+    margin-bottom: 3px;
+}
+
+/* Mobile responsive */
+@media (max-width: 576px) {
+    .petition-box {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+}
+
+.responsive {
+    display: flex;
+    /* margin-bottom: -18px; */
 }

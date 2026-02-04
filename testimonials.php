@@ -92,7 +92,7 @@ $res_data = mysqli_query($conn, $data_sql);
     <?php include 'includes/head-links.php'; ?>
     <style>
         .testimonies-table-section {
-            padding: 40px 0;
+            /* padding: 40px 0; */
             background: #fff;
         }
         .page-title {

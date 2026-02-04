@@ -27,7 +27,7 @@
     <section class="about-area">
         <div class="container">
             <div class="section-content">
-                <h2 class="blog-title" style="color: #2c5aa0; border-bottom: 2px solid #ddd; padding-bottom: 15px; margin-bottom: 30px;">Lumen Christi TV, Part 2</h2>
+                <h2 class="blog-title" style="color: #1a4b7e; border-bottom: 2px solid #ddd; padding-bottom: 15px; margin-bottom: 30px;">Lumen Christi TV, Part 2</h2>
                 
                 <div class="video-page-content">
                     <h3 style="text-align: center; font-size: 1.5rem; margin-bottom: 25px; color: #333;">Fr. Peter Rookey on Lumen Christi TV Show-Part 2 (Year 2000)

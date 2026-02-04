@@ -77,26 +77,17 @@
 
                     <span class="sub-header">HOW TO LISTEN ON PHONES OR TABLETS</span>
                     
-                    <div class="link-block">
-                        <span class="podcast-info-header">ON APPLE iPHONE AND iPAD:</span>
-                        Find the purple <strong>PODCASTS</strong> app or download the <strong>APPLE PODCASTS</strong> app. Click on this link and keep selecting OK. Select SUBSCRIBE to always find the podcast in your favourites within the app.<br>
-                        <a href="https://podcasts.apple.com/gb/podcast/praying-the-rosary-with-fr-peter-rookey-osm/id1527557684" target="_blank">https://podcasts.apple.com/gb/podcast/praying-the-rosary-with-fr-peter-rookey-osm/id1527557684</a>
-                    </div>
+                    <p><strong>ON APPLE iPHONE AND iPAD:</strong> Find the purple <strong>PODCASTS</strong> app or download the <strong>APPLE PODCASTS</strong> app. Click on this link and keep selecting <strong>OK</strong>. Select SUBSCRIBE to always find the podcast in your favourites within the app. <a href="https://podcasts.apple.com/gb/podcast/praying-the-rosary-with-fr-peter-rookey-osm/id1527557684" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://podcasts.apple.com/gb/podcast/praying-the-rosary-with-fr-peter-rookey-osm/id1527557684</a>
+                    </p>
 
-                    <div class="link-block">
-                        <span class="podcast-info-header">ON OTHER DEVICES:</span>
-                        Download the <strong>SPOTIFY, ANCHOR or BREAKER</strong> app and search for the podcast by name.<br>
-                        You can also add this podcast to any existing Podcast app that you are using by clicking the <strong>RSS link</strong>:<br>
-                        <a href="https://anchor.fm/s/24cfcbcc/podcast/rss" target="_blank">https://anchor.fm/s/24cfcbcc/podcast/rss</a>
-                    </div>
+                    <p><strong>ON OTHER DEVICES:</strong> Download the <strong>SPOTIFY, ANCHOR or BREAKER</strong> app and search for the podcast by name.<br>You can also add this podcast to any existing Podcast app that you are using by clicking the <strong>RSS link</strong>:<a href="https://anchor.fm/s/24cfcbcc/podcast/rss" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://anchor.fm/s/24cfcbcc/podcast/rss</a>
+                    </p>
 
                     <span class="sub-header">HOW TO LISTEN ON A COMPUTER:</span>
-                    <p>Visit the following website links.</p>
-                    <div class="link-block">
-                        <strong>SPOTIFY:</strong> <a href="https://open.spotify.com/show/5ewmqZa8RekzpqZa8vM9ta" target="_blank">https://open.spotify.com/show/5ewmqZa8RekzpqZa8vM9ta</a><br>
-                        <strong>ANCHOR:</strong> <a href="https://anchor.fm/fr-peter-rookey" target="_blank">https://anchor.fm/fr-peter-rookey</a><br>
-                        <strong>GOOGLE PODCASTS:</strong> <a href="#">Praying the Rosary with Fr Peter Rookey OSM</a>
-                    </div>
+                    <p>Visit the following website links.<br><strong>SPOTIFY:</strong> <a href="https://open.spotify.com/show/5ewmqZa8RekzpqZa8vM9ta" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://open.spotify.com/show/5ewmqZa8RekzpqZa8vM9ta</a><br>
+                        <strong>ANCHOR:</strong> <a href="https://anchor.fm/fr-peter-rookey" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://anchor.fm/fr-peter-rookey</a><br>
+                        <strong>GOOGLE PODCASTS:</strong> <a href="https://music.youtube.com/googlepodcasts" target="_blank" style="color: #1a4b7e; font-weight: 700;">Praying the Rosary with Fr Peter Rookey OSM</a>
+                    </p>
                 </div>
 
                 <!-- Section 2 -->
@@ -108,19 +99,17 @@
                     
                     <p>This podcast channel presents an archive of interviews and conversations with Fr Peter Mary Rookey OSM (1916-2014) and honors his blessed memory by continuing his ministry in this way. Fr Peter was a friar and priest within the Order of the Servants of Mary. He was referred to as 'The Man of Miracles' and 'The Healing Priest', since the Lord worked thousands of miraculous healings of body and soul through him. Fr. Peter was born in Superior, Wisconsin on October 12, 1916 and was born to eternal life on September 10, 2014 at Our Lady of Sorrows Basilica in Chicago, Illinois.</p>
 
-                    <div class="link-block">
-                        <span class="podcast-info-header">ON APPLE iPHONE OR iPAD:</span> <a href="https://anchor.fm/s/5a331274/podcast/rss" target="_blank">https://anchor.fm/s/5a331274/podcast/rss</a>
-                    </div>
+                    <p><strong>ON APPLE iPHONE OR iPAD:</strong> <a href="https://anchor.fm/s/5a331274/podcast/rss" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://anchor.fm/s/5a331274/podcast/rss</a>
+                    </p>
 
-                    <div class="link-block">
-                        <span class="podcast-info-header">ON APPLE OR OTHER DEVICES:</span> <a href="https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG" target="_blank">https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG</a> (Free Spotify account required)
-                    </div>
+                    <p><strong>ON APPLE OR OTHER DEVICES:</strong> <a href="https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG</a> (Free Spotify account required)
+                    </p>
 
                     <span class="sub-header">ON A COMPUTER:</span>
-                    <div class="link-block">
-                        <strong>SPOTIFY:</strong> <a href="https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG" target="_blank">https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG</a> (Free Spotify account required)<br>
-                        <strong>ANCHOR:</strong> <a href="https://anchor.fm/fr-peter-rookey-osm" target="_blank">https://anchor.fm/fr-peter-rookey-osm</a> (No account needed)
-                    </div>
+                    <p>
+                        <strong>SPOTIFY:</strong> <a href="https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG</a> (Free Spotify account required)</p>
+                        <p><strong>ANCHOR:</strong> <a href="https://anchor.fm/fr-peter-rookey-osm" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://anchor.fm/fr-peter-rookey-osm</a> (No account needed)
+                    </p>
                 </div>
             </div>
         </div>

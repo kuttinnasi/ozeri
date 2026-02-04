@@ -9,7 +9,7 @@ include 'config.php';
     <?php include 'includes/head-links.php'; ?>
     <style>
         .prayer-section {
-            padding: 50px 0;
+            padding: 20px 0;
             background: #fff;
             /* text-align: center; */
         }

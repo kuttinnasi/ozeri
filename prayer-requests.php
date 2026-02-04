@@ -117,7 +117,7 @@ if(isset($_POST['submit_prayer_request'])){
     <?php include 'includes/head-links.php'; ?>
     <style>
         .prayer-request-section {
-            padding: 40px 0;
+            /* padding: 40px 0; */
             background: #fff;
         }
         .form-wrapper {
@@ -191,6 +191,7 @@ if(isset($_POST['submit_prayer_request'])){
             margin-top: 30px;
             font-weight: 400;
             color: #333;
+            margin-bottom: 30px;
         }
         .contact-info strong {
           display: block;

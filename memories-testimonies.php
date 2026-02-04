@@ -49,7 +49,7 @@ include 'config.php';
             border: 1px solid #000;
             margin-top: 40px;
             border-radius: 8px;
-            padding: 20px;
+            padding: 0px;
             position: sticky;
             top: 100px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.05);
