@@ -33,7 +33,7 @@ if(!function_exists('active_link')){
                         </div>
                         <div class="brand-text">
                             <div class="cta-links">
-                                <a href="<?= BASE_URL ?>/petition-of-support-for-fr-rookeys-canonization/" class="cta-link red-link">Click here to sign petition</a>
+                                <a href="<?= BASE_URL ?>/petition.php" target="_blank" class="cta-link red-link">Click here to sign petition</a>
                                 <a href="#" class="cta-link blue-link">His Cause For Canonization</a>
                             </div>
                         </div>

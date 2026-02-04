@@ -241,7 +241,7 @@ h3 {
     /* Mobile default */
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 100px) {
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -320,7 +320,7 @@ h3 {
 
 /* Mobile Toggle */
 .mobile-toggle {
-    display: block !important;
+    display: none !important;
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -1024,7 +1024,8 @@ textarea.form-control {
         font-size: 16px;
         margin-bottom: 20px;
         /* text-align: center; */
-        margin-top: 55px !important;
+        margin-top: 125px !important;
+
     }
 
 }

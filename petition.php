@@ -158,6 +158,7 @@ $res_data = mysqli_query($conn, $data_sql);
         .petition-section {
             padding: 0px 0;
             background: #fff;
+            padding-bottom: 30px;
         }
         .page-title {
             font-size: 28px;

@@ -111,9 +111,9 @@
                         
                         <table class="track-list">
                             <tr><td><a href="../assets/img/video/01-Seek-Ye-First.mp3">1. Seek Ye First</a></td><td class="duration">5:10</td></tr>
-                            <tr><td><a href="../assets/img/video/02-The-First-Sorrow-of-the-Blessed-Mother-The-Prophecy-Of-Simeon.mp3">2. The First Sorrow of the Blessed Mother: The Prophecy Of Simeon</a></td><td class="duration">4:43</td></tr>
+                            <tr><td><a href="../assets/img/video/02-The-1st-Sorrow-The-Prophecy-Of-Simeon.mp3">2. The First Sorrow of the Blessed Mother: The Prophecy Of Simeon</a></td><td class="duration">4:43</td></tr>
                             <tr><td><a href="../assets/img/video/03-Healer-Of-My-Soul.mp3">3. Healer Of My Soul</a></td><td class="duration">5:00</td></tr>
-                            <tr><td><a href="../assets/img/video/04-The-Second-Sorrow-The-Flight-Into-Egypt.mp3">4. The Second Sorrow: The Flight Into Egypt</a></td><td class="duration">4:50</td></tr>
+                            <tr><td><a href="../assets/img/video/04-The-2nd-Sorrow-The-Flight-Into-Egypt.mp3">4. The Second Sorrow: The Flight Into Egypt</a></td><td class="duration">4:50</td></tr>
                             <tr><td><a href="../assets/img/video/05-Lord-You-Are-So-Precious.mp3">5. Lord You Are So Precious</a></td><td class="duration">4:26</td></tr>
                             <tr><td><a href="../assets/img/video/06-The-3rd-Sorrow-The-Three-Days-Loss-Of-Jesus.mp3">6. The Third Sorrow: The Three Days Loss Of Jesus</a></td><td class="duration"></td></tr>
                             <tr><td><a href="../assets/img/video/07-Lord-Your-Name-Is-Holy.mp3">7. Lord Your Name Is Holy</a></td><td class="duration">4:43</td></tr>
