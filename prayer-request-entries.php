@@ -136,13 +136,26 @@ $res_data = mysqli_query($conn, $data_sql);
 
         .btn-back {
             display: inline-block;
-            margin-bottom: 20px;
             color: #1a4b7e;
             text-decoration: none;
             font-weight: 600;
+            white-space: nowrap;
         }
         .btn-back:hover {
-            text-decoration: underline;
+            text-decoration: none;
+        }
+        .title-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #8a98ba;
+            margin-bottom: 30px;
+            padding: 10px 0;
+        }
+        .title-wrapper .blog-title {
+            border-bottom: none !important;
+            margin-bottom: 0 !important;
+            padding: 0 !important;
         }
     </style>
 </head>
@@ -151,9 +164,10 @@ $res_data = mysqli_query($conn, $data_sql);
 
     <main class="prayer-entries-section">
         <div class="container">
-            <h1 class="blog-title">Prayer Request Entries</h1>
-            
-            <a href="prayer-requests.php" class="btn-back">&larr; Back to Submit Request</a>
+            <div class="title-wrapper">
+                <h1 class="blog-title">Prayer Request Entries</h1>
+                <a href="prayer-requests.php" class="btn-back">&larr; Back to Submit Request</a>
+            </div>
 
             <!-- Data Listing Section -->
             <div class="table-controls">
