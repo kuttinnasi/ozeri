@@ -92,7 +92,7 @@ if(!function_exists('active_link')){
                     <a href="<?= BASE_URL ?>/pray-the-miracle-prayer-with-fr-peter/pray-the-miracle-prayer-with-fr-peter.php" class="<?= active_link('pray-the-miracle-prayer-with-fr-peter') ?>">Pray the Miracle Prayer with Fr. Peter</a>
                     <a href="<?= BASE_URL ?>/fr-peter-sings-the-stabat-mater/stabat-mater.php" class="<?= active_link('stabat-mater') ?>">Fr. Peter Sings the Stabat Mater</a>
                     <a href="<?= BASE_URL ?>/prayer-requests.php" class="<?= active_link('prayer-requests') ?>">Prayer Requests</a>
-                    <a href="https://therookeysaint.org/admin-dashboard/index.php" style="background:#8f9dbe; padding:3px 8px; border-radius:4px;">Dashboard</a>
+                    <a href="<?= BASE_URL ?>/admin-dashboard/petition-page-list.php" style="background:#8f9dbe; padding:3px 8px; border-radius:4px;">Dashboard</a>
                 </div>
             </div>
         </div>

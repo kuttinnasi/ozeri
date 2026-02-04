@@ -1,0 +1,1 @@
+&copy; <?php echo date('Y'); ?>  <b class="copyright"><?php echo APPNAME; ?>. </b> &nbsp; All rights reserved.

@@ -1,0 +1,13 @@
+[05-Jul-2021 11:39:38 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'boscoits_sedos_user_2020'@'localhost' (using password: YES) in /home/boscoits/public_html/staging/demo/admin-dashboard/config.php on line 7
+[05-Jul-2021 11:55:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'boscoits_sedos_user_2020'@'localhost' (using password: YES) in /home/boscoits/public_html/staging/demo/admin-dashboard/config.php on line 7
+[05-Jul-2021 12:00:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/boscoits/public_html/staging/demo/admin-dashboard/membership-page-list.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/boscoits/public_html/staging/demo/admin-dashboard/membership-page-list.php on line 79
+[05-Jul-2021 12:29:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/boscoits/public_html/staging/demo/admin-dashboard/petition-page-view-details.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/boscoits/public_html/staging/demo/admin-dashboard/petition-page-view-details.php on line 60
+[05-Jul-2021 13:16:35 UTC] PHP Parse error:  syntax error, unexpected 'fas' (T_STRING), expecting ';' or ',' in /home/boscoits/public_html/staging/demo/admin-dashboard/petition-page-list.php on line 96
+[05-Jul-2021 13:17:51 UTC] PHP Parse error:  syntax error, unexpected 'fas' (T_STRING), expecting ';' or ',' in /home/boscoits/public_html/staging/demo/admin-dashboard/petition-page-list.php on line 96
+[05-Jul-2021 13:27:26 UTC] PHP Parse error:  syntax error, unexpected 'fa' (T_STRING), expecting ';' or ',' in /home/boscoits/public_html/staging/demo/admin-dashboard/petition-page-list.php on line 98

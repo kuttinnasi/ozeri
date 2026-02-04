@@ -29,9 +29,9 @@ CREATE TABLE IF NOT EXISTS `petition` (
   `email` varchar(255) NOT NULL,
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3071 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3074 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table fr_rookey_local.petition: ~2,578 rows (approximately)
+-- Dumping data for table fr_rookey_local.petition: ~2,575 rows (approximately)
 INSERT INTO `petition` (`id`, `name`, `country`, `state`, `other_state`, `email`, `created_at`) VALUES
 	(1, 'Mary forsberg Turner', 'USA', 'Ky', '', 'mforsberg33@gmail.com', '2024-02-02 10:08:32'),
 	(18, 'Timothy Peter Rookey', 'USA', 'WI', '', 'timothyrookey@yahoo.com', '2022-03-23 18:49:01'),
@@ -2607,7 +2607,10 @@ INSERT INTO `petition` (`id`, `name`, `country`, `state`, `other_state`, `email`
 	(3064, 'RFL', 'USA', 'Colorado', NULL, 'robtandyvonne@hotmail.com', '2026-01-26 05:49:45'),
 	(3065, 'Zeidy Nelson', 'USA', 'Indiana', NULL, 'zeidynelson@gmail.com', '2026-01-26 10:32:34'),
 	(3066, 'ZN', 'USA', 'IN', NULL, 'zeidynelson@gmail.com', '2026-01-26 10:34:04'),
-	(3067, 'Cynthia Roth', 'USA', 'West Virginia', NULL, 'cindyroth1960@gmail.com', '2026-01-27 10:55:08');
+	(3067, 'Cynthia Roth', 'USA', 'West Virginia', NULL, 'cindyroth1960@gmail.com', '2026-01-27 10:55:08'),
+	(3071, 'test2', 'UK', 'test', '', 'test@gmail.com', '2026-02-02 09:25:23'),
+	(3072, 'tests', 'Ireland', 'test', '', 'admin@admin.com', '2026-02-03 16:15:16'),
+	(3073, 'testttt', 'UK', 'test22', '', 'jmarotti@sdb.org', '2026-02-03 16:49:56');
 
 -- Dumping structure for table fr_rookey_local.prayer_request
 CREATE TABLE IF NOT EXISTS `prayer_request` (
@@ -2619,9 +2622,9 @@ CREATE TABLE IF NOT EXISTS `prayer_request` (
   `message` text,
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=993 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=995 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table fr_rookey_local.prayer_request: ~578 rows (approximately)
+-- Dumping data for table fr_rookey_local.prayer_request: ~575 rows (approximately)
 INSERT INTO `prayer_request` (`id`, `name`, `lname`, `email`, `phone_number`, `message`, `created_at`) VALUES
 	(31, 'Margaret Hurd', '', 'margarethurd@gmail.com', '07743401791', 'Dear Fr Peter Rookey,\r\nPlease  ask Our Lady and her loving son Jesus help my mother ( Philomena Mc Geough) who is very  ill due to a  severe wound infection post hip surgery in January this year.\r\nPlease  guide the Doctors, Nurses and Physiotherapists   in the care they provide for her, please let her get a place in the Cappagh Rehabilitation Hospital in Dublin, in order to build up her strength and to regain her confidence in mobilising.\r\n\r\nThanking You Fr Rookey,\r\nMargaret.', '2022-03-24 06:38:43'),
 	(32, 'Anne Elizabeth Rookey', '', 'anneerookey@yahoo.com', '6082181303', 'Please pray for my friend Barbara, for her to have a place to live that is not too expensive, and for her to know where God wants her to live. Also, please pray for her needs to be met. She does not drive, and needs people to help her get to church and other places. Also, for her to be able to get the cataract surgery she needs, and other physical ailments attended to. Please pray for her general well-being, and mission in life. Thank you!!!', '2022-03-24 16:59:45'),
@@ -3197,7 +3200,9 @@ INSERT INTO `prayer_request` (`id`, `name`, `lname`, `email`, `phone_number`, `m
 	(986, 'Joe', '', 'joepiroli@comcast.net', '0000000000', 'Please, please pray for me for salvation, healing and deliverance for me.   Please pray for these same items as well for my wife and all living relatives.  ', '2025-12-29 04:58:45'),
 	(987, 'Maureen Rowland', '', 'mrowland715@gmail.com', '9732556288', 'Please pray for my husband, Brandon Rowland, age 42, who is suffering from an anoxic brain injury following a sudden cardiac arrest. Brandon is a devoted husband and a loving father to our 2 year old daughter, Marleyna. He is also a cherished son, brother, and friend. \r\nI humbly ask for prayers for his immediate and total healing. I am praying for a true miracle. Please pray for a full and meaningful recovery, that his cognition be restored, that he may speak and walk again. Amen.', '2026-01-19 17:19:41'),
 	(988, 'mieke ranson', '', 'mieke.ranson@telenet.be', '0498125156', 'Hello\r\nWould it please be able to ask the Father to pray for me for healing from the consequences of a head surgery.\r\nBrain fog, focus, neurofatique, tinnitus...\r\nI want to work again, I want to find something I really like.  \r\n\r\nThank you.\r\nGod bless you.\r\n\r\nMieke', '2026-01-23 10:33:46'),
-	(989, 'Anita Hornby', '', 'anitairl@hotmail.co.uk', '447300215912', 'I ask that through the intercession of this holy man Fr Peter Mary that my family would be able to afford a pilgrimage to Medjugorje from Ireland as the money is not there for us. Help my husband to increase his faith so that he would agree for us to make the trip. Bless my son too who is autistic that he could go there,\r\nI also ask that I would learn to know and follow Gods will, that I would know how to make my peace with God. Help me to follow Gods will. \r\nOur Lady, pray  for our family . Ame', '2026-01-25 09:40:41');
+	(989, 'Anita Hornby', '', 'anitairl@hotmail.co.uk', '447300215912', 'I ask that through the intercession of this holy man Fr Peter Mary that my family would be able to afford a pilgrimage to Medjugorje from Ireland as the money is not there for us. Help my husband to increase his faith so that he would agree for us to make the trip. Bless my son too who is autistic that he could go there,\r\nI also ask that I would learn to know and follow Gods will, that I would know how to make my peace with God. Help me to follow Gods will. \r\nOur Lady, pray  for our family . Ame', '2026-01-25 09:40:41'),
+	(993, 'Dana Burgess', NULL, 'lefyv@mailinator.com', '+1 (946) 133-8633', 'Sit porro architect', '2026-02-02 09:25:44'),
+	(994, 'terer', NULL, 'admin@admin.com', '4564567467578689789709890', 'testr', '2026-02-03 16:50:42');
 
 -- Dumping structure for table fr_rookey_local.testimonials
 CREATE TABLE IF NOT EXISTS `testimonials` (
@@ -3209,9 +3214,9 @@ CREATE TABLE IF NOT EXISTS `testimonials` (
   `file_path` varchar(255) DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table fr_rookey_local.testimonials: ~31 rows (approximately)
+-- Dumping data for table fr_rookey_local.testimonials: ~29 rows (approximately)
 INSERT INTO `testimonials` (`id`, `name`, `email`, `phone`, `testimony`, `file_path`, `created_at`) VALUES
 	(2, 'Catherine donohue', '', '', 'He called hospital when my daughter was in icu on kidney dialysis prayed over her she was 3 she’s 19 now no side affects.', NULL, '2026-02-02 07:07:14'),
 	(3, 'Diácono Pedro', '', '', 'Olá, me chamo diácono Pedro,diocesano ! e hoje venho piedosamente solicitar algumas relíquias ex indumentis tenho total ciência sobre a sagrada As relíquias então hoje venho piedosamente solicitar algumas relíquias para que eu possa propagar a devoção peço também material devocional para que eu possa fazer trabalho de divulgação divulgar a devoção! Desde já muito obrigado! Atenciosamente: diácono Pedro Ferreira! Aqui está meu endereço para envio! Deus abençoe! D.Pedro Ferreira Q s 13 rua 3 Centro Numero 17 Vila São Joaquim Sobradinho Bahia CEP 48925-000 Brasil.', NULL, '2026-02-02 07:07:14'),
@@ -3241,7 +3246,26 @@ INSERT INTO `testimonials` (`id`, `name`, `email`, `phone`, `testimony`, `file_p
 	(27, 'Mark A. Zbylut', '', '', 'I first came to the healing Mass about November of 1992. The Basilica seemed to have no funds at all. I wanted to support the Church and decided to become an "Audio Missionary." I had spent 8 years in the Army as a Signal officer and wanted to use my gift for technology for Our Lady. Not being able to stay employed in Pro audio due do the economy, I made audio support for evangelism my avocation under the name Revelation Audio. About 02/93 I began bringing my own microphones, cables, mixer, stands and such to support the volunteer choir that attended the healing services. I did this for about 3 years. I regret that one day the pianist, who came from Grand Rapids, MI invited an electric guitarist to play with her; without regard for the opinions of the others from Chicago. I felt it was a Holy Mass and not a rock concert. I felt forced to leave and take my equipment being unable to reconcile. Father\'s love for everyone was precious and he loved serving our Lord. Hail Mary!', NULL, '2026-02-02 07:07:16'),
 	(28, 'Cheryl Turner', '', '', 'I met Father Rookey In 1996 in Santa Fe, New Mexico at Saint Francis Cathedral. I attended his Mass. I smelled a fragrance of roses and lilies while praying the rosary with him. When father held up his crucifix over my head, I fell asleep in the spirit. I lay asleep on the ground for a while. I’ve written him letters over the years and he has responded typically with Bible verses, prayers and kindness. He made time to write back. He was kind, generous and patient with the multitude of people. Over the years I’ve received many miraculous healings within my family. My brother cured from pancreatic cancer (2023), my daughter from a spinal tumor(2003), my nephew for receiving all his sacraments before death (2017). I believe Father Rookey intercedes for us in heaven today! Many Blessings! Cheryl Turner', NULL, '2026-02-02 07:07:16'),
 	(29, 'Olivia cabrera', '', '', 'I remember when I went to see him in Indiana he prayed for me and my friend I could feel the healing of God he blessed my statue of my virgen Mary....very powerful priest, he will be truly missed 😔', NULL, '2026-02-02 07:07:16'),
-	(30, 'Mary Frausto', '', '', 'Married 10 ten years and we could not conceive due to a brain tumor I had. Father Peter Rookey prayed for me on Relevant Radio a Catholic Radion Station. He said I WOULD conceive, not if it\'s God\'s will. I WOULD CONCEIVE. He also said maybe you will have twins. We have two beautiful girls who are now 14/15 years old. We call them our Irish twins. So grateful for our two miracles. Father Rookey did not heal my tumor and the tumor was removed when the girls were 2/3 years old. We pray for Father Rookey; may he rest in peace. We pray that one day he will become a Saint because of all the people he healed on Earth. I pray The Miracle Prayer every day and I encourage you to do the same. With prayers, thanks and love - YSIC, Mary', NULL, '2026-02-02 07:07:16');
+	(30, 'Mary Frausto', '', '', 'Married 10 ten years and we could not conceive due to a brain tumor I had. Father Peter Rookey prayed for me on Relevant Radio a Catholic Radion Station. He said I WOULD conceive, not if it\'s God\'s will. I WOULD CONCEIVE. He also said maybe you will have twins. We have two beautiful girls who are now 14/15 years old. We call them our Irish twins. So grateful for our two miracles. Father Rookey did not heal my tumor and the tumor was removed when the girls were 2/3 years old. We pray for Father Rookey; may he rest in peace. We pray that one day he will become a Saint because of all the people he healed on Earth. I pray The Miracle Prayer every day and I encourage you to do the same. With prayers, thanks and love - YSIC, Mary', NULL, '2026-02-02 07:07:16'),
+	(36, 'test', 'zaqiru@mailinator.com', '+1 (868) 396-7318', 'Qui eiusmod deserunt inventore modi ut laborum fuga Repudiandae maiores adipisicing accusantium recusandae Quaerat tenetur nisi elit et possimus sit', '', '2026-02-02 09:24:51'),
+	(37, 'twerr', 'admin@admin.com', '14096321441', 'ertertertertere', '', '2026-02-03 16:51:38');
+
+-- Dumping structure for table fr_rookey_local.users
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `user_type` varchar(50) NOT NULL DEFAULT 'Partner',
+  `partner_id` varchar(50) DEFAULT NULL,
+  `first_name` varchar(100) DEFAULT NULL,
+  `last_name` varchar(100) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- Dumping data for table fr_rookey_local.users: ~1 rows (approximately)
+INSERT INTO `users` (`id`, `email`, `password`, `user_type`, `partner_id`, `first_name`, `last_name`, `created_at`) VALUES
+	(1, 'admin@therookeysaint.com', 'Admin@2026', 'Admin', '0', 'Admin', NULL, '2026-02-04 17:53:42');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
