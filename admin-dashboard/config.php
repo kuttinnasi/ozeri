@@ -27,5 +27,8 @@
   	}
 
     if (!defined('APPNAME')) define('APPNAME', 'Fr. Peter Mary Rookey');
-    if (!defined('BASE_URL')) define('BASE_URL', 'http://localhost/Ozeri/Frrookysaint'); 
-?>
+    if (!defined('BASE_URL')) {
+        $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+        $domain = $_SERVER['HTTP_HOST'];
+        define('BASE_URL', $protocol . $domain . '/ozeri/frrookey');
+    }?>

@@ -387,7 +387,7 @@ include '../config.php';
             </div>
             
             <div style="text-align: right; margin-top: 40px;">
-                <a href="<?= BASE_URL ?>/photo-album/photos.php" class="btn-submit" style="display: inline-block; text-decoration: none;">Back to Gallery</a>
+                <a href="<?php echo BASE_URL; ?>/photo-album/photos.php" class="btn-submit" style="display: inline-block; text-decoration: none;">Back to Gallery</a>
             </div>
         </div>
     </main>

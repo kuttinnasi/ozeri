@@ -55,7 +55,7 @@ include 'config.php';
             
             <div class="detail-content-wrapper">
                 <div class="detail-image">
-                    <img src="<?= BASE_URL ?>/assets/img/Fr.-Rookey-consecration-of-the-Holy-Eucharist.jpg" alt="Fr. Rookey consecration of the Holy Eucharist">
+                    <img src="<?php echo BASE_URL; ?>/assets/img/Fr.-Rookey-consecration-of-the-Holy-Eucharist.jpg" alt="Fr. Rookey consecration of the Holy Eucharist">
                 </div>
                 <div class="detail-text">
                     <p>

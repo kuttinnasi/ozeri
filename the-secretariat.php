@@ -84,19 +84,19 @@ include 'config.php';
 
             <div class="book-gallery">
                 <div class="book-item">
-                    <img src="<?= BASE_URL ?>/assets/img/book/book-1.jpg" alt="Man of Miracles">
+                    <img src="<?php echo BASE_URL; ?>/assets/img/book/book-1.jpg" alt="Man of Miracles">
                 </div>
                 <div class="book-item">
-                    <img src="<?= BASE_URL ?>/assets/img/book/book-2.jpg" alt="Do You Believe That Jesus Can Heal You?">
+                    <img src="<?php echo BASE_URL; ?>/assets/img/book/book-2.jpg" alt="Do You Believe That Jesus Can Heal You?">
                 </div>
                 <div class="book-item">
-                    <img src="<?= BASE_URL ?>/assets/img/book/book-3.jpg" alt="A Laborer Of The Harvest">
+                    <img src="<?php echo BASE_URL; ?>/assets/img/book/book-3.jpg" alt="A Laborer Of The Harvest">
                 </div>
                 <div class="book-item">
-                    <img src="<?= BASE_URL ?>/assets/img/book/book-4.jpg" alt="Healer of Souls">
+                    <img src="<?php echo BASE_URL; ?>/assets/img/book/book-4.jpg" alt="Healer of Souls">
                 </div>
                 <div class="book-item">
-                    <img src="<?= BASE_URL ?>/assets/img/book/book-5.jpg" alt="Shepherd of Souls">
+                    <img src="<?php echo BASE_URL; ?>/assets/img/book/book-5.jpg" alt="Shepherd of Souls">
                 </div>
             </div>
         </div>

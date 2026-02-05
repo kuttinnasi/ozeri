@@ -59,7 +59,7 @@ include 'config.php';
             
             <div class="prayer-image-container">
                 <!-- Using a suitable image from assets or placeholder if not found -->
-                <img src="<?= BASE_URL ?>/assets/img/Prayer-for-the-Cause-of-Sainthood.jpg" alt="Our Lady of Sorrows">
+                <img src="<?php echo BASE_URL; ?>/assets/img/Prayer-for-the-Cause-of-Sainthood.jpg" alt="Our Lady of Sorrows">
             </div>
 
             <div class="">

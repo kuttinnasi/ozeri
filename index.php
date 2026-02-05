@@ -31,13 +31,13 @@
         <div class="hero-slider-wrapper">
             <div class="hero-slider">
                 <div class="slide active">
-                    <img src="<?= BASE_URL ?>/assets/img/slider-1.jpg" alt="Fr. Peter Mary Rookey">
+                    <img src="<?php echo BASE_URL; ?>/assets/img/slider-1.jpg" alt="Fr. Peter Mary Rookey">
                 </div>
                 <div class="slide">
-                    <img src="<?= BASE_URL ?>/assets/img/slider-2.jpg" alt="Fr. Peter Mary Rookey Ministry">
+                    <img src="<?php echo BASE_URL; ?>/assets/img/slider-2.jpg" alt="Fr. Peter Mary Rookey Ministry">
                 </div>
                 <div class="slide">
-                    <img src="<?= BASE_URL ?>/assets/img/slider-3.jpg" alt="Fr. Peter Mary Rookey Healing">
+                    <img src="<?php echo BASE_URL; ?>/assets/img/slider-3.jpg" alt="Fr. Peter Mary Rookey Healing">
                 </div>
             </div>
             <!-- Controls -->
@@ -69,7 +69,7 @@
                 <!-- Card 1 -->
                 <article class="article-item">
                     <div class="article-img-wrapper">
-                        <img src="<?= BASE_URL ?>/assets/img/Fr.-Rookey-at-his-ICM-office-desk-smiling.jpg" alt="Cause for Sainthood">
+                        <img src="<?php echo BASE_URL; ?>/assets/img/Fr.-Rookey-at-his-ICM-office-desk-smiling.jpg" alt="Cause for Sainthood">
                         <div class="click-read-overlay"><a href="fr-rookey-at-icm-office.php">Click Here to Read</a></div>
                     </div>
                     <div class="article-content">
@@ -84,7 +84,7 @@
                 <!-- Card 2 -->
                 <article class="article-item">
                     <div class="article-img-wrapper">
-                        <img src="<?= BASE_URL ?>/assets/img/Fr.-Rookey-consecration-of-the-Holy-Eucharist.jpg"
+                        <img src="<?php echo BASE_URL; ?>/assets/img/Fr.-Rookey-consecration-of-the-Holy-Eucharist.jpg"
                             alt="Fr. Rookey consecration of the Holy Eucharist">
                         <div class="click-read-overlay"><a href="fr-rookey-consecration-holy-eucharist.php">Click Here to Read</a></div>
                     </div>
@@ -100,7 +100,7 @@
                 <!-- Card 3 -->
                 <article class="article-item">
                     <div class="article-img-wrapper">
-                        <img src="<?= BASE_URL ?>/assets/img/Fr.-Rookey-pausing-to-read-a-travel-book-during-a-pilgrimage-to-the-Holy-Land.jpg"
+                        <img src="<?php echo BASE_URL; ?>/assets/img/Fr.-Rookey-pausing-to-read-a-travel-book-during-a-pilgrimage-to-the-Holy-Land.jpg"
                             alt="Fr. Rookey pausing to read a travel book during a pilgrimage to the Holy Land">
                         <div class="click-read-overlay"><a href="fr-rookey-pilgrimage-holy-land.php">Click Here to Read</a></div>
                     </div>

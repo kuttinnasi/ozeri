@@ -1,4 +1,4 @@
-    <script src="<?= BASE_URL ?>/assets/js/main.js"></script>
+    <script src="<?php echo BASE_URL; ?>/assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
     <script>
         // Disabled mobile toggle to keep navigation layout like first image
@@ -11,8 +11,9 @@
                 selector: '.glightbox',
                 touchNavigation: true,
                 loop: true,
-                width: '1000px', // Force it to be large
-                height: 'auto'
+                width: 'auto',
+                height: 'auto',
+                descPosition: 'bottom'
             });
 
             // Auto-setup GLightbox for Relics page if we are on it

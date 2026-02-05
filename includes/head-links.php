@@ -19,5 +19,5 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css?v=<?= time() ?>">
-    <link rel="icon" type="image/png" href="<?= BASE_URL ?>/assets/img/favicon.jpg">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/style.css">
+    <link rel="icon" type="image/png" href="<?php echo BASE_URL; ?>/assets/img/favicon.jpg">

@@ -55,7 +55,7 @@ include 'config.php';
             
             <div class="detail-content-wrapper">
                 <div class="detail-image">
-                    <img src="<?= BASE_URL ?>/assets/img/Fr.-Rookey-pausing-to-read-a-travel-book-during-a-pilgrimage-to-the-Holy-Land.jpg" alt="Fr. Rookey pausing to read a travel book during a pilgrimage to the Holy Land">
+                    <img src="<?php echo BASE_URL; ?>/assets/img/Fr.-Rookey-pausing-to-read-a-travel-book-during-a-pilgrimage-to-the-Holy-Land.jpg" alt="Fr. Rookey pausing to read a travel book during a pilgrimage to the Holy Land">
                 </div>
                 <div class="detail-text">
                     <p>
