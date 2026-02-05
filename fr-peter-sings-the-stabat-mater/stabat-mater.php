@@ -2,14 +2,6 @@
 <html class="no-js" lang="en">
 
 <head>
-    <meta charset="utf-8" />
-
-    <!--====== Title ======-->
-    <title>Fr. Peter Sings the Stabat Mater &#8211; Fr Peter Mary Rookey &#8211; Servite Friar</title>
-
-    <meta name="description" content="Fr. Peter Rookey sings the Stabat Mater in honor of Mary, the Sorrowful Mother of the crucified Jesus." />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <!-- CSS
     ============================================ -->
     <?php 

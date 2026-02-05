@@ -2,11 +2,7 @@
 <html class="no-js" lang="en">
 
 <head>
-   <meta charset="utf-8" />
-    <!--====== Title ======-->
-    <title>
-        Fr Peter Mary Rookey &#8211; Servite Friar &#8211; In the history of the Church, we have never had a ‘Rookey Saint’
-    </title>
+ 
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="" />
 
