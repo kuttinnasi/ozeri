@@ -47,7 +47,7 @@
 
             <p>2040 Allen Blvd #6,<br>
             Middleton, WI 53562,<br>
-            (608) 218-1303.<strong>frpeterrookey@gmail.com</strong></p>
+            (608) 218-1303. <strong><a href="mailto:frpeterrookey@gmail.com">frpeterrookey@gmail.com</a></strong></p>
         </div>
       </div>
     </section>

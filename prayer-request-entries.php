@@ -34,7 +34,8 @@ $res_data = mysqli_query($conn, $data_sql);
     <?php include 'includes/head-links.php'; ?>
     <style>
         .prayer-entries-section {
-            padding: 40px 0;
+            padding-bottom: 30px;;
+            padding-top: 20px;;
             background: #fff;
         }
         .page-title {
@@ -51,7 +52,7 @@ $res_data = mysqli_query($conn, $data_sql);
             align-items: center;
             margin-bottom: 20px;
             font-size: 14px;
-            color: #555;
+            color: #000;
         }
         .table-controls select {
              padding: 5px;
@@ -60,7 +61,7 @@ $res_data = mysqli_query($conn, $data_sql);
         }
         .search-box input {
             padding: 6px 12px;
-            border: 1px solid #ccc;
+            border: 1px solid #000;
             border-radius: 4px;
             margin-left: 10px;
         }
@@ -70,7 +71,7 @@ $res_data = mysqli_query($conn, $data_sql);
             width: 100%;
             border-collapse: collapse;
             font-family: Arial, sans-serif;
-            border: 1px solid #ddd;
+            border: 1px solid #000;
             margin-bottom: 20px;
         }
         .entries-table thead tr {
@@ -86,7 +87,7 @@ $res_data = mysqli_query($conn, $data_sql);
         }
         .entries-table td {
             padding: 12px 15px;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid #000;
             font-size: 14px;
             color: #444;
             vertical-align: top;
@@ -105,7 +106,7 @@ $res_data = mysqli_query($conn, $data_sql);
             justify-content: space-between;
             align-items: center;
             font-size: 13px;
-            color: #666;
+            color: #000;
             margin-top: 20px;
         }
         .pagination-links {

@@ -243,11 +243,11 @@ $res_data = mysqli_query($conn, $data_sql);
             align-items: center;
             margin-bottom: 15px;
             font-size: 14px;
-            color: #555;
+            color: #000;
         }
         .search-box input {
             padding: 6px 12px;
-            border: 1px solid #ccc;
+            border: 1px solid #000;
             border-radius: 4px;
             margin-left: 10px;
         }
@@ -284,7 +284,7 @@ $res_data = mysqli_query($conn, $data_sql);
             justify-content: space-between;
             align-items: center;
             font-size: 13px;
-            color: #666;
+            color: #000;
         }
         .pagination-links {
             display: flex;
@@ -292,7 +292,7 @@ $res_data = mysqli_query($conn, $data_sql);
         }
         .pagination-links a, .pagination-links span {
             padding: 5px 10px;
-            border: 1px solid #ddd;
+            border: 1px solid #000;
             color: #1a4b7e;
             text-decoration: none;
             border-radius: 3px;
@@ -300,7 +300,7 @@ $res_data = mysqli_query($conn, $data_sql);
         .pagination-links .active {
             background: #f5f5f5;
             color: #333;
-            border-color: #ddd;
+            border-color: #000;
         }
         .pagination-links .dots {
             border: none;

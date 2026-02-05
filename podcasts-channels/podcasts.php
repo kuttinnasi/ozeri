@@ -84,9 +84,9 @@
                     </p>
 
                     <span class="sub-header">HOW TO LISTEN ON A COMPUTER:</span>
-                    <p>Visit the following website links.<br><strong>SPOTIFY:</strong> <a href="https://open.spotify.com/show/5ewmqZa8RekzpqZa8vM9ta" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://open.spotify.com/show/5ewmqZa8RekzpqZa8vM9ta</a><br>
-                        <strong>ANCHOR:</strong> <a href="https://anchor.fm/fr-peter-rookey" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://anchor.fm/fr-peter-rookey</a><br>
-                        <strong>GOOGLE PODCASTS:</strong> <a href="https://music.youtube.com/googlepodcasts" target="_blank" style="color: #1a4b7e; font-weight: 700;">Praying the Rosary with Fr Peter Rookey OSM</a>
+                    <p>Visit the following website links.<br><strong>SPOTIFY:</strong> <a href="https://open.spotify.com/show/5ewmgZa8RekzpqZa8vM9ta" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://open.spotify.com/show/5ewmqZa8RekzpqZa8vM9ta</a><br>
+                        <strong>ANCHOR:</strong> <a href="https://creators.spotify.com/pod/login?return_to=https%3A%2F%2Fcreators.spotify.com%2Fpod%2Fshow%2Ffr-peter-rookey" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://anchor.fm/fr-peter-rookey</a><br>
+                        <strong>GOOGLE PODCASTS:</strong> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yNGNmY2JjYy9wb2RjYXN0L3Jzcw==" target="_blank" style="color: #1a4b7e; font-weight: 700;">Praying the Rosary with Fr Peter Rookey OSM</a>
                     </p>
                 </div>
 
@@ -99,16 +99,16 @@
                     
                     <p>This podcast channel presents an archive of interviews and conversations with Fr Peter Mary Rookey OSM (1916-2014) and honors his blessed memory by continuing his ministry in this way. Fr Peter was a friar and priest within the Order of the Servants of Mary. He was referred to as 'The Man of Miracles' and 'The Healing Priest', since the Lord worked thousands of miraculous healings of body and soul through him. Fr. Peter was born in Superior, Wisconsin on October 12, 1916 and was born to eternal life on September 10, 2014 at Our Lady of Sorrows Basilica in Chicago, Illinois.</p>
 
-                    <p><strong>ON APPLE iPHONE OR iPAD:</strong> <a href="https://anchor.fm/s/5a331274/podcast/rss" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://anchor.fm/s/5a331274/podcast/rss</a>
+                    <p><strong>ON APPLE iPHONE OR iPAD:</strong> <a href="https://anchor.fm/s/5a331274/podcast/rss?fbclid=IwAR25YNmef0vRcx2GuWUk2zOQLb_J--E_2948AXE8Lctn8WcwRd6MtsgXdao" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://anchor.fm/s/5a331274/podcast/rss</a>
                     </p>
 
-                    <p><strong>ON APPLE OR OTHER DEVICES:</strong> <a href="https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG</a> (Free Spotify account required)
+                    <p><strong>ON APPLE OR OTHER DEVICES:</strong> <a href="https://www.facebook.com/flx/warn/?u=https%3A%2F%2Fopen.spotify.com%2Fshow%2F6IJbpUqDXSRQ9gO1pJeNJG%3Ffbclid%3DIwAR2qqN4eLWBq1MX1Zg7rwyKY4uhqr9n-71-MTMU3yU912aZU9lToIQDMrPI&h=AT13c59JIUdScWMg4d5ivKgKtuiccjwuo-Wg-xE4p4QIq6QJPaP9yYVYroacuT-UDS_mVn59oiEj80urZkHKaISeCUOFEnRQjJQT95zE9sIgKCvWfiFw335AYDSvcwHeah7B5o8FajB-JO3gTE08Nxdv1FkI8m2cJhHx8N4uly3gaiRczXGTRENHlN3hbUGWLwZV6Up0mHPtSg9LNUjLhRNM2TBLCnPjKRXPMHf_7Oy51cYoUmdibPr3LhgZ" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG</a> (Free Spotify account required)
                     </p>
 
                     <span class="sub-header">ON A COMPUTER:</span>
                     <p>
-                        <strong>SPOTIFY:</strong> <a href="https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG</a> (Free Spotify account required)</p>
-                        <p><strong>ANCHOR:</strong> <a href="https://anchor.fm/fr-peter-rookey-osm" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://anchor.fm/fr-peter-rookey-osm</a> (No account needed)
+                        <strong>SPOTIFY:</strong> <a href="https://open.spotify.com/show/6IJbpUqDXSRQ9gO1pJeNJG?fbclid=IwAR093-uEQPI0R17hVlnVqiKp8LE57g9nsDvLNqI5T3Mp73X8kf_9_thlSAQ" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://open.spotify.com/show/6JJbpUqDXSRQ9gO1pJeNJG</a> (Free Spotify account required)</p>
+                        <p><strong>ANCHOR:</strong> <a href="https://creators.spotify.com/pod/login?return_to=https%3A%2F%2Fcreators.spotify.com%2Fpod%2Fshow%2Ffr-peter-rookey-osm%3Ffbclid%3DIwAR0Kp8ATC_M1NRb54li5WjJMmVPD3KqOKklj6IBhw3P02GzNAsM6j6zszv0" target="_blank" style="color: #1a4b7e; font-weight: 700;">https://anchor.fm/fr-peter-rookey-osm</a> (No account needed)
                     </p>
                 </div>
             </div>

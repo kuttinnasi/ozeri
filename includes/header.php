@@ -52,31 +52,51 @@ if(!function_exists('active_link')){
             <div class="nav-menu">
                 <!-- Row 1 -->
                 <div class="nav-row primary-row">
-                    <a href="<?= BASE_URL ?>/index.php" class="home-icon <?= active_link('index.php') ?>"><i class="fa-solid fa-house"></i></a>
-                    <a href="<?= BASE_URL ?>/about-us/father-peter-mary-rookey.php" class="<?= active_link('about-us') ?>">About Us</a>
-                    <a href="<?= BASE_URL ?>/biography/biography.php" class="<?= active_link('biography') ?>">Biography</a>
-                    <a href="<?= BASE_URL ?>/photo-album/photos.php" class="<?= active_link('photo-album') ?>">Photo Album</a>
-                    <div class="nav-dropdown">
-                       <a href="#" class="dropdown-toggle <?= active_link('/videos/') ?>">Videos / Interviews <i class="fa-solid fa-caret-down"></i></a>
-                        <div class="dropdown-menu">
-                            <a href="<?= BASE_URL ?>/videos/the-healing-priest-documentary.php" class="<?= active_link('the-healing-priest-documentary') ?>">The Healing Priest Documentary</a>
-                            <a href="<?= BASE_URL ?>/videos/pilgrimage-of-love-holyland-film.php" class="<?= active_link('pilgrimage-of-love-holyland-film') ?>">Pilgrimage Of Love Holyland Film</a>
-                            <a href="<?= BASE_URL ?>/videos/lumen-christi-tv-part-1.php" class="<?= active_link('lumen-christi-tv-part-1') ?>">Lumen Christi TV, Part 1</a>
-                            <a href="<?= BASE_URL ?>/videos/lumen-christi-tv-part-2.php" class="<?= active_link('lumen-christi-tv-part-2') ?>">Lumen Christi TV, Part 2</a>
-                            <a href="<?= BASE_URL ?>/videos/jerry-kelly-tv-show.php" class="<?= active_link('jerry-kelly-tv-show') ?>">Jerry Kelly TV Show</a>
-                            <a href="<?= BASE_URL ?>/videos/pat-kenny-tv-show.php" class="<?= active_link('pat-kenny-tv-show') ?>">Pat Kenny TV Show</a>
-                            <a href="<?= BASE_URL ?>/videos/new-life-in-jesus-tv-show.php" class="<?= active_link('new-life-in-jesus-tv-show') ?>">New Life In Jesus TV Show</a>
-                            <a href="<?= BASE_URL ?>/videos/tv-news-interview-eau-claire-wisconsin.php" class="<?= active_link('tv-news-interview-eau-claire-wisconsin') ?>">TV News Interview-Eau Claire, Wisconsin</a>
-                            <a href="<?= BASE_URL ?>/videos/healing-service-in-medjugorje.php" class="<?= active_link('healing-service-in-medjugorje') ?>">Healing Service In Medjugorje</a>
-                            <a href="<?= BASE_URL ?>/videos/tridentine-mass.php" class="<?= active_link('tridentine-mass') ?>">Tridentine Mass</a>
-                            <a href="<?= BASE_URL ?>/videos/tv-show-on-relics-of-saints.php" class="<?= active_link('tv-show-on-relics-of-saints') ?>">TV Show On Relics Of Saints</a>
-                            <a href="<?= BASE_URL ?>/videos/fr-peter-rookey-and-friends.php" class="<?= active_link('fr-peter-rookey-and-friends') ?>">Fr. Peter Rookey & Friends</a>
-                            <a href="<?= BASE_URL ?>/videos/healing-mass-our-lady-of-sorrows-1996.php" class="<?= active_link('healing-mass-our-lady-of-sorrows-1996') ?>">Healing Mass-Our Lady of Sorrows-1996</a>
-                            <a href="<?= BASE_URL ?>/videos/missouri-charismatic-conference-mass.php" class="<?= active_link('missouri-charismatic-conference-mass') ?>">Missouri Charismatic Conference Mass</a>
-                            <a href="<?= BASE_URL ?>/videos/missouri-charismatic-healing-service.php" class="<?= active_link('missouri-charismatic-healing-service') ?>">Missouri Charismatic Healing Service</a>
-                            <a href="<?= BASE_URL ?>/videos/tulsa-marian-conference-mass-1992.php" class="<?= active_link('tulsa-marian-conference-mass-1992') ?>">Tulsa Marian Conference Mass 1992</a>
-                            <a href="<?= BASE_URL ?>/videos/meeting-st-padre-pio.php" class="<?= active_link('meeting-st-padre-pio') ?>">Meeting St. Padre Pio</a>
-                            <a href="<?= BASE_URL ?>/videos/david-parkes-story-of-healing-and-conversion.php" class="<?= active_link('david-parkes-story-of-healing-and-conversion') ?>">David Parkes-Story Of Healing & Conversion</a>
+                    <a href="<?= BASE_URL ?>/index.php"
+           class="home-icon <?= active_link('index.php') ?>"
+           title="Home"
+           aria-label="Home">
+           <i class="fa-solid fa-house"></i>
+        </a>
+
+        <a href="<?= BASE_URL ?>/about-us/father-peter-mary-rookey.php"
+           class="<?= active_link('about-us') ?>"
+           title="About Us">About Us</a>
+
+        <a href="<?= BASE_URL ?>/biography/biography.php"
+           class="<?= active_link('biography') ?>"
+           title="Biography">Biography</a>
+
+        <a href="<?= BASE_URL ?>/photo-album/photos.php"
+           class="<?= active_link('photo-album') ?>"
+           title="Photo Album">Photo Album</a>
+
+        <div class="nav-dropdown">
+            <a href="#"
+               class="dropdown-toggle <?= active_link('/videos/') ?>"
+               title="Videos and Interviews">
+               Videos / Interviews <i class="fa-solid fa-caret-down"></i>
+            </a>
+
+            <div class="dropdown-menu">
+                <a href="<?= BASE_URL ?>/videos/the-healing-priest-documentary.php" title="The Healing Priest Documentary">The Healing Priest Documentary</a>
+                <a href="<?= BASE_URL ?>/videos/pilgrimage-of-love-holyland-film.php" title="Pilgrimage Of Love Holyland Film">Pilgrimage Of Love Holyland Film</a>
+                <a href="<?= BASE_URL ?>/videos/lumen-christi-tv-part-1.php" title="Lumen Christi TV Part 1">Lumen Christi TV, Part 1</a>
+                <a href="<?= BASE_URL ?>/videos/lumen-christi-tv-part-2.php" title="Lumen Christi TV Part 2">Lumen Christi TV, Part 2</a>
+                <a href="<?= BASE_URL ?>/videos/jerry-kelly-tv-show.php" title="Jerry Kelly TV Show">Jerry Kelly TV Show</a>
+                <a href="<?= BASE_URL ?>/videos/pat-kenny-tv-show.php" title="Pat Kenny TV Show">Pat Kenny TV Show</a>
+                <a href="<?= BASE_URL ?>/videos/new-life-in-jesus-tv-show.php" title="New Life In Jesus TV Show">New Life In Jesus TV Show</a>
+                <a href="<?= BASE_URL ?>/videos/tv-news-interview-eau-claire-wisconsin.php" title="TV News Interview Eau Claire Wisconsin">TV News Interview-Eau Claire, Wisconsin</a>
+                <a href="<?= BASE_URL ?>/videos/healing-service-in-medjugorje.php" title="Healing Service In Medjugorje">Healing Service In Medjugorje</a>
+                <a href="<?= BASE_URL ?>/videos/tridentine-mass.php" title="Tridentine Mass">Tridentine Mass</a>
+                <a href="<?= BASE_URL ?>/videos/tv-show-on-relics-of-saints.php" title="TV Show On Relics Of Saints">TV Show On Relics Of Saints</a>
+                <a href="<?= BASE_URL ?>/videos/fr-peter-rookey-and-friends.php" title="Fr Peter Rookey and Friends">Fr. Peter Rookey & Friends</a>
+                <a href="<?= BASE_URL ?>/videos/healing-mass-our-lady-of-sorrows-1996.php" title="Healing Mass Our Lady of Sorrows 1996">Healing Mass-Our Lady of Sorrows-1996</a>
+                <a href="<?= BASE_URL ?>/videos/missouri-charismatic-conference-mass.php" title="Missouri Charismatic Conference Mass">Missouri Charismatic Conference Mass</a>
+                <a href="<?= BASE_URL ?>/videos/missouri-charismatic-healing-service.php" title="Missouri Charismatic Healing Service">Missouri Charismatic Healing Service</a>
+                <a href="<?= BASE_URL ?>/videos/tulsa-marian-conference-mass-1992.php" title="Tulsa Marian Conference Mass 1992">Tulsa Marian Conference Mass 1992</a>
+                <a href="<?= BASE_URL ?>/videos/meeting-st-padre-pio.php" title="Meeting St Padre Pio">Meeting St. Padre Pio</a>
+                <a href="<?= BASE_URL ?>/videos/david-parkes-story-of-healing-and-conversion.php" title="David Parkes Story of Healing and Conversion">David Parkes-Story Of Healing & Conversion</a>
                         </div>
                     </div>
                     <a href="<?= BASE_URL ?>/memories-testimonies.php" class="<?= active_link('memories-testimonies') ?>">Memories / Testimonies</a>

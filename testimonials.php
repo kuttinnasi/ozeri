@@ -92,7 +92,7 @@ $res_data = mysqli_query($conn, $data_sql);
     <?php include 'includes/head-links.php'; ?>
     <style>
         .testimonies-table-section {
-            /* padding: 40px 0; */
+            padding-bottom: 30px; 0;
             background: #fff;
         }
         .page-title {
@@ -107,7 +107,7 @@ $res_data = mysqli_query($conn, $data_sql);
             width: 100%;
             border-collapse: collapse;
             font-family: Arial, sans-serif;
-            border: 1px solid #ddd;
+            border: 1px solid #000;
             margin-bottom: 20px;
         }
         .testimonies-table thead tr {
@@ -126,7 +126,7 @@ $res_data = mysqli_query($conn, $data_sql);
         }
         .testimonies-table td {
             padding: 15px;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid #000;
             vertical-align: top;
             font-size: 16px;
             line-height: 1.6;
@@ -159,7 +159,7 @@ $res_data = mysqli_query($conn, $data_sql);
         }
         .search-box input {
             padding: 6px 12px;
-            border: 1px solid #ccc;
+            border: 1px solid #000;
             border-radius: 4px;
             margin-left: 10px;
         }
@@ -168,7 +168,7 @@ $res_data = mysqli_query($conn, $data_sql);
             justify-content: space-between;
             align-items: center;
             font-size: 13px;
-            color: #666;
+            color: #000;
             margin-top: 20px;
         }
         .pagination-links {
@@ -177,7 +177,7 @@ $res_data = mysqli_query($conn, $data_sql);
         }
         .pagination-links a, .pagination-links span {
             padding: 5px 10px;
-            border: 1px solid #ddd;
+            border: 1px solid #000;
             color: #1a4b7e;
             text-decoration: none;
             border-radius: 3px;
@@ -186,7 +186,15 @@ $res_data = mysqli_query($conn, $data_sql);
             background: #f5f5f5;
             color: #333;
         }
-        
+        .blog-title-one {
+            font-size: 30px;
+            font-weight: 600;
+            color: #1a4b7e !important;
+            padding: 25px 0;
+            /* border-bottom: 1px solid #8a98ba !important; */
+            /* margin-bottom: 30px !important; */
+            font-family: "PT Sans", sans-serif;
+        }
         @media (max-width: 768px) {
             .testimonies-table thead { display: none; }
             .testimonies-table, .testimonies-table tbody, .testimonies-table tr, .testimonies-table td {
@@ -218,10 +226,16 @@ $res_data = mysqli_query($conn, $data_sql);
 
     <main class="testimonies-table-section">
         <div class="container">
-            <h1 class="blog-title" style="margin-bottom: 20px;">Testimonials</h1>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; flex-wrap:wrap; border-bottom: 1px solid #8a98ba !important;">
+                
+                <h1 class="blog-title-one" style="margin:0;">Testimonials</h1>
 
-            <div style="margin-bottom: 30px; text-align: right;">
-                <a href="share-your-memories-or-healing-testimonies-of-fr-rookey.php" class="btn" style="background: #1a4b7e; color: #fff; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold;">Share Your Testimony</a>
+                <a href="share-your-memories-or-healing-testimonies-of-fr-rookey.php" 
+                class="btn" 
+                style="background:#1a4b7e; color:#fff; padding:3px 7px; border-radius:4px; text-decoration:none; font-weight:bold;">
+                Share Your Testimony
+                </a>
+
             </div>
             
             <div class="table-controls">

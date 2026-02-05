@@ -10,7 +10,7 @@ include 'config.php';
     <?php include 'includes/head-links.php'; ?>
     <style>
         .testimonies-section {
-            /* padding: 60px 0; */
+            padding-bottom: 30px; 0;
             background: #fdfdfd;
             min-height: 80vh;
         }
@@ -123,7 +123,7 @@ include 'config.php';
             font-family: "Open Sans", sans-serif;
             background: #1a4b7e;
             color: #fff;
-            padding: 3px 13px;
+            padding: 7px 13px;
             cursor: pointer;
             display: flex;
             justify-content: space-between;
@@ -220,11 +220,11 @@ include 'config.php';
     <main class="testimonies-section">
         <div class="container">
             <div class="">
-                <h1 class="blog-title">Memories & Testimonies</h1>
+                <h1 class="blog-title">Memories / Testimonies</h1>
                 <p><strong><a href="share-your-memories-or-healing-testimonies-of-fr-rookey.php" style="color: inherit; text-decoration: none;">Click Here to Share Your Memories or Healing Testimonies of Fr. Rookey</a></strong></p>
                 <p><a href="testimonials.php" style="color: #000; font-weight: bold; text-decoration: none;">Personal Testimonies submitted to this website</a></p>
 
-                <p><a href="https://www.facebook.com/rookeysaint" target="_blank" style="color: #1a4b7e; font-weight: bold; text-decoration: underline; ">Fr. Peter M. Rookey O.S.M. Guest Book on Chicago Sun-Times</a></p>
+                <p><a href="https://www.legacy.com/obituaries/name/peter-rookey-obituary?pid=172446003&page=14" target="_blank" style="color: #1a4b7e; font-weight: bold; text-decoration: underline; ">Fr. Peter M. Rookey O.S.M. Guest Book on Chicago Sun-Times</a></p>
                 <p style="margin-top: -12px;">Fr. Peter Rookey Sainthood Promotion Page on Facebook: <a href="https://www.facebook.com/rookeysaint/" target="_blank"  style="color: #1a4b7e; font-weight: bold; text-decoration: underline;">https://www.facebook.com/rookeysaint</a></p>
                 <p style="margin-top: -12px;">Fr. Peter Rookey Cause for Canonization Page on Facebook:  <a href="https://www.facebook.com/groups/321174586348057/" target="_blank"  style="color: #1a4b7e; font-weight: bold; text-decoration: underline;">https://www.facebook.com/groups/321174586348057/</a></p>
                     <p style="margin-top: -12px;">Fr. Peter Rookey Video Page on YouTube : <a href="https://www.youtube.com/channel/UCD3VQ6RIlk_WUbPtD6w86HA?view_as=subscriber" target="_blank" style="color: #1a4b7e; font-weight: bold; text-decoration: underline;">youtube.com/channel/UCD3VQ6RIlk_WUbPtD6w86HA</a></p>
