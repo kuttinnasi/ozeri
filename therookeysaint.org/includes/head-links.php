@@ -53,3 +53,13 @@
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/style.css">
     <link rel="icon" type="image/png" href="<?php echo BASE_URL; ?>/assets/img/favicon.jpg">
+	
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HLCZLKRYFY"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-HLCZLKRYFY');
+	</script>
