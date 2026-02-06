@@ -5,8 +5,8 @@
     <?php include('includes/head-links.php'); ?>
     <style>
         .error-wrapper {
-            background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), 
-                        url('<?php echo BASE_URL; ?>/assets/img/slider-1.jpg');
+            /* background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), 
+                        url('<?php echo BASE_URL; ?>/assets/img/slider-1.jpg'); */
             background-size: cover;
             background-position: center;
             min-height: 70vh;
@@ -161,16 +161,15 @@
                 <div class="error-icon">
                     <i class="fa-solid fa-compass-drafting"></i>
                 </div>
-                <h1 class="error-title">Seeking the Path?</h1>
+                <h1 class="error-title">Oops! Page Not Found</h1>
                 <p class="error-text">
-                    "Peace be with you."<br>
-                    The page you are looking for has wandered from the path or never existed. 
+                    We Are Sorry, but the Page You Requested Was Not Found
                 </p>
                 <a href="<?php echo BASE_URL; ?>/index.php" class="back-home-btn">
                     <i class="fa-solid fa-house me-2"></i> Return to Home
                 </a>
 
-                <div class="error-suggestions">
+                <!-- <div class="error-suggestions">
                     <p>Perhaps you were looking for one of these?</p>
                     <div class="suggestion-links">
                         <a href="<?php echo BASE_URL; ?>/biography/biography.php">Biography</a>
@@ -178,7 +177,7 @@
                         <a href="<?php echo BASE_URL; ?>/prayer-requests.php">Prayer Requests</a>
                         <a href="<?php echo BASE_URL; ?>/relics/relics.php">Relics</a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </main>
