@@ -14,7 +14,7 @@ if ($domain === 'therookeysaint.org' || $domain === 'www.therookeysaint.org') {
     $db = 'dbs5611998';
 } else {
     // Local Configuration
-    define('BASE_URL',  $protocol . $domain . '/ozeri/frrookey');
+    define('BASE_URL',  $protocol . $domain . '/ozeri/');
     
     $host = '127.0.0.1';
     $DBUser = "root";
