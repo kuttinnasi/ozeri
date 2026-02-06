@@ -280,8 +280,8 @@ include '../config.php';
                     <div class="caption">1979 Holy Land travel ad with Fr. Peter as the pilgrimage priest. He served as the spiritual guide for many religious pilgrimages over the years</div>
                 </div>
                 <div class="gallery-item">
-                    <a href="../assets/img/fr-rookey-priesthood/Kissing-the-famous-Blarney-Stone-in-1979-Ireland.jpg" class="glightbox" data-description="Kissing the famous Blarney Stone in 1979 Ireland.">
-                        <img src="../assets/img/fr-rookey-priesthood/Kissing-the-famous-Blarney-Stone-in-1979-Ireland.jpg" alt="Pilgrimage">
+                    <a href="../assets/img/fr-rookey-priesthood/img1.jpg" class="glightbox" data-description="Kissing the famous Blarney Stone in 1979 Ireland.">
+                        <img src="../assets/img/fr-rookey-priesthood/img1.jpg" alt="Pilgrimage">
                     </a>
                     <div class="caption">Kissing the famous Blarney Stone in 1979 Ireland.</div>
                 </div>
